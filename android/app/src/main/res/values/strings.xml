@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Speedometer</string>
+    <string name="tracking_channel">Live speed</string>
+    <string name="tracking_channel_description">Speed and a Stop control while your trip runs</string>
+    <string name="tracking_waiting">Waiting for GPS</string>
+    <string name="tracking_idle">Tracking stopped</string>
+    <string name="tracking_stop">Stop</string>
+    <string name="widget_name">Live speedometer</string>
+    <string name="widget_description">Live speed while tracking. Tap to open Speedometer.</string>
+    <string name="overlay_close">Close floating speedometer</string>
+    <string name="overlay_resize">Drag to resize speedometer</string>
+</resources>

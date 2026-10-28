@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Velocímetro</string>
+    <string name="tracking_channel">Velocidad en directo</string>
+    <string name="tracking_channel_description">Velocidad y control Detener durante el trayecto</string>
+    <string name="tracking_waiting">Esperando GPS</string>
+    <string name="tracking_idle">Seguimiento detenido</string>
+    <string name="tracking_stop">Detener</string>
+    <string name="widget_name">Velocímetro en directo</string>
+    <string name="widget_description">Velocidad durante el seguimiento. Toca para abrir el velocímetro.</string>
+    <string name="overlay_close">Cerrar velocímetro flotante</string>
+    <string name="overlay_resize">Arrastra para cambiar el tamaño</string>
+</resources>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">عداد السرعة</string>
+    <string name="tracking_channel">السرعة المباشرة</string>
+    <string name="tracking_channel_description">السرعة وزر الإيقاف أثناء الرحلة</string>
+    <string name="tracking_waiting">بانتظار إشارة GPS</string>
+    <string name="tracking_idle">تم إيقاف التتبع</string>
+    <string name="tracking_stop">إيقاف</string>
+    <string name="widget_name">عداد السرعة المباشر</string>
+    <string name="widget_description">السرعة أثناء التتبع. اضغط لفتح عداد السرعة.</string>
+    <string name="overlay_close">إغلاق عداد السرعة العائم</string>
+    <string name="overlay_resize">اسحب لتغيير حجم عداد السرعة</string>
+</resources>

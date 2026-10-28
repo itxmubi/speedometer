@@ -1,0 +1,422 @@
+{
+  "@@locale": "de",
+  "appTitle": "Tachometer",
+  "appTagline": "PRÄZISE. PRIVAT. KOSTENLOS.",
+  "dashboardTitle": "Live-Anzeige",
+  "dashboardSubtitle": "Mehr Klarheit auf jeder Fahrt.",
+  "settings": "Einstellungen",
+  "backToDashboard": "Zurück zur Anzeige",
+  "digital": "Digital",
+  "analog": "Analog",
+  "hud": "HUD",
+  "displayMode": "Anzeigemodus",
+  "currentSpeed": "AKTUELLE GESCHWINDIGKEIT",
+  "speedUnit": "Geschwindigkeitseinheit",
+  "unitKilometers": "km/h",
+  "unitMiles": "mph",
+  "unitMeters": "m/s",
+  "unitKnots": "kn",
+  "unitKilometersFull": "Kilometer pro Stunde",
+  "unitMilesFull": "Meilen pro Stunde",
+  "unitMetersFull": "Meter pro Sekunde",
+  "unitKnotsFull": "Knoten",
+  "kilometers": "km",
+  "miles": "mi",
+  "nauticalMiles": "sm",
+  "meters": "m",
+  "gpsStandby": "GPS in Bereitschaft",
+  "gpsSearching": "GPS-Signal wird gesucht",
+  "gpsLive": "GPS verbunden",
+  "gpsPaused": "GPS pausiert",
+  "gpsUnavailable": "GPS nicht verfügbar",
+  "accuracyValue": "Genauigkeit ±{value} m",
+  "@accuracyValue": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "speedSemantics": "Aktuelle Geschwindigkeit: {value} {unit}",
+  "@speedSemantics": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      },
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "startPrompt": "Bereit, wenn du es bist",
+  "startHint": "Starte eine Fahrt, um deine GPS-Geschwindigkeit zu sehen.",
+  "searchingHint": "Freie Sicht zum Himmel verbessert den GPS-Empfang.",
+  "pausedHint": "Deine Fahrt ist pausiert. Setze sie fort, wenn du bereit bist.",
+  "trackingHint": "GPS ist aktiv. Beende die Aufzeichnung über die Fahrtsteuerung oder die Benachrichtigung.",
+  "thisTrip": "Diese Fahrt",
+  "sessionOnly": "Lokale Fahrt · wird beim Beenden gespeichert",
+  "tripDistance": "STRECKE",
+  "averageSpeed": "DURCHSCHNITT",
+  "topSpeed": "HÖCHSTGESCHWINDIGKEIT",
+  "tripDuration": "DAUER",
+  "movingAverage": "Durchschnitt in Bewegung",
+  "movingTime": "Bewegungszeit",
+  "altitude": "Höhe",
+  "heading": "Richtung",
+  "unavailableValue": "—",
+  "durationValue": "{hours}:{minutes}:{seconds}",
+  "@durationValue": {
+    "placeholders": {
+      "hours": {
+        "type": "String"
+      },
+      "minutes": {
+        "type": "String"
+      },
+      "seconds": {
+        "type": "String"
+      }
+    }
+  },
+  "headingValue": "{value}°",
+  "@headingValue": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "measurementValue": "{value} {unit}",
+  "@measurementValue": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      },
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "startTrip": "Fahrt starten",
+  "pauseTrip": "Fahrt pausieren",
+  "resumeTrip": "Fahrt fortsetzen",
+  "startingTrip": "Verbindung wird hergestellt…",
+  "resetTrip": "Fahrt zurücksetzen",
+  "resetTitle": "Neu beginnen?",
+  "resetMessage": "Dies stoppt die Aufzeichnung und verwirft die aktuelle Fahrt. Frühere gespeicherte Fahrten, der Gesamtkilometerzähler und Streckensummen nach Zeitraum bleiben erhalten.",
+  "cancel": "Abbrechen",
+  "reset": "Zurücksetzen",
+  "privacyFooter": "Offline. Ohne Konto. Keine Uploads.",
+  "safeDriving": "Nimm Einstellungen vor der Fahrt vor. Achte auf die Straße.",
+  "speedLimit": "Geschwindigkeitsgrenze",
+  "limitValue": "GRENZE {value} {unit}",
+  "@limitValue": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      },
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "overLimit": "Geschwindigkeitsgrenze überschritten",
+  "overLimitSemantics": "Warnung: Du überschreitest deine gewählte Geschwindigkeitsgrenze.",
+  "mirrorHud": "HUD spiegeln",
+  "mirrorHudSubtitle": "Spiegle die Anzeige für die Reflexion in der Windschutzscheibe.",
+  "hudHint": "Gut auf einen Blick ablesbar. Befestige dein Telefon vor der Fahrt sicher.",
+  "displaySettings": "Deine Anzeige",
+  "displaySettingsDescription": "Passe die Anzeige an deine Wünsche an.",
+  "simpleView": "Einfache Ansicht",
+  "simpleViewSubtitle": "Konzentriere dich auf die aktuelle Geschwindigkeit.",
+  "darkMode": "Dunkle Darstellung",
+  "darkModeSubtitle": "Eine angenehmere Anzeige für Nachtfahrten.",
+  "warningSettings": "Geschwindigkeitswarnungen",
+  "warningSettingsDescription": "Wähle deine persönliche Grenze und die gewünschten Warnungen.",
+  "enableWarning": "Geschwindigkeitswarnung aktivieren",
+  "enableWarningSubtitle": "Warne oberhalb deiner gewählten Grenze einschließlich Toleranz.",
+  "warningScope": "Ton, Vibration und Sprache sind optional. Warnungen sind eine Hilfe; achte weiter auf die Straße. Geräteeinstellungen und Hardware können hörbare und fühlbare Warnungen beeinflussen.",
+  "decreaseLimit": "Geschwindigkeitsgrenze senken",
+  "increaseLimit": "Geschwindigkeitsgrenze erhöhen",
+  "privacySettings": "Privatsphäre von Anfang an",
+  "privacySettingsDescription": "Dein Standort ermöglicht die Geschwindigkeitsanzeige auf diesem Gerät. Standort- und Fahrtdaten werden nicht hochgeladen.",
+  "foregroundDisclosure": "GPS startet nur, wenn du auf Fahrt starten tippst. Bei aktiviertem Hintergrundtracking hält eine sichtbare Benachrichtigung die Aufzeichnung außerhalb der App aktiv und bietet eine Stopp-Taste. Fahrten und optionale genaue Routen bleiben bis zum Löschen oder ausdrücklichen Export auf diesem Gerät. Ohne Konto oder automatische Uploads.",
+  "precisionDisclaimer": "GPS-Messwerte hängen von den Empfangsbedingungen ab. Diese App ist eine Hilfe und ersetzt nicht den Tachometer deines Fahrzeugs.",
+  "permissionEyebrow": "BEREIT FÜR DIE FAHRT",
+  "permissionTitle": "Deine Fahrt.\nDeine Privatsphäre.",
+  "permissionDescription": "Eine klare Geschwindigkeitsanzeige beginnt mit dem GPS deines Telefons.",
+  "permissionLocationTitle": "Standort mit klarem Zweck",
+  "permissionLocationBody": "Der genaue Standort ermöglicht das Ablesen der GPS-Geschwindigkeit und das Messen der Fahrtstrecke.",
+  "permissionOfflineTitle": "Immer auf deinem Gerät",
+  "permissionOfflineBody": "Ohne Konto, automatische Uploads oder Internetverbindung. Fahrten und optionale genaue Routen werden auf diesem Gerät gespeichert. In den Einstellungen kannst du die Routenspeicherung ausschalten, eine lokale Sicherung exportieren oder deine Daten löschen.",
+  "permissionControlTitle": "Du behältst die Kontrolle",
+  "permissionControlBody": "GPS startet, wenn du auf Fahrt starten tippst. Eine sichtbare Benachrichtigung kann die Aufzeichnung bei minimierter App fortsetzen und bietet eine Stopp-Taste. Hintergrundtracking, Routenspeicherung und Warnungen lassen sich in den Einstellungen steuern.",
+  "permissionContinue": "Weiter zur Anzeige",
+  "permissionRequestHint": "Wir fragen beim Start deiner ersten Fahrt nach der Standortberechtigung.",
+  "failurePermissionDenied": "Die Standortberechtigung wird für die GPS-Geschwindigkeit benötigt. Tippe zum erneuten Versuch auf Fahrt starten.",
+  "failurePermissionDeniedForever": "Der Standortzugriff ist für diese App ausgeschaltet. Aktiviere den genauen Standort in den App-Einstellungen, um eine Fahrt zu starten.",
+  "failureLocationDisabled": "Die Standortfunktion deines Geräts ist ausgeschaltet. Schalte sie für die GPS-Geschwindigkeit ein.",
+  "failureLocationUnavailable": "Noch kein zuverlässiger GPS-Messwert verfügbar. Versuche es mit freier Sicht zum Himmel erneut.",
+  "failureUnsupported": "GPS-Tracking wird auf dieser Plattform nicht unterstützt. Anzeige und Darstellungseinstellungen können angesehen werden.",
+  "failureStorage": "Deine lokalen Daten konnten nicht gelesen oder gespeichert werden. Versuche es erneut.",
+  "failureUnexpected": "Die Fahrt wurde unterbrochen. Versuche es erneut.",
+  "openAppSettings": "App-Einstellungen öffnen",
+  "openLocationSettings": "Standort einschalten",
+  "dismissError": "Meldung schließen",
+  "preferencesLoadFailure": "Deine gespeicherten Einstellungen konnten nicht geladen werden.",
+  "retry": "Erneut versuchen",
+  "continueWithDefaults": "Mit Standardeinstellungen fortfahren",
+  "loadingPreferences": "Deine Anzeige wird vorbereitet…",
+  "startupTitle": "Hier beginnt eine klarere Fahrt.",
+  "keepAwake": "Bildschirm eingeschaltet lassen",
+  "keepAwakeDescription": "Verhindere den Ruhezustand während der Aufzeichnung bei sichtbarer Anzeige.",
+  "brightness": "Bildschirmhelligkeit",
+  "systemBrightness": "Systemhelligkeit verwenden",
+  "brightnessDescription": "Ändert nur diese App. Beim Verlassen gilt wieder die Systemhelligkeit.",
+  "accentColor": "Instrumentenfarbe",
+  "colorLime": "Limette",
+  "colorBlue": "Blau",
+  "colorCyan": "Cyan",
+  "colorAmber": "Bernstein",
+  "colorRose": "Rosé",
+  "colorLavender": "Lavendel",
+  "colorMint": "Minze",
+  "colorOrange": "Orange",
+  "colorWhite": "Weiß",
+  "colorPink": "Pink",
+  "leftHanded": "Layout für Linkshänder",
+  "leftHandedDescription": "Platziere das Instrument in breiten Ansichten links.",
+  "gaugeRange": "Voller Anzeigebereich",
+  "nightHud": "HUD mit maximalem Kontrast",
+  "nightHudDescription": "Verwende nachts ein HUD mit reinem Schwarz und heller Anzeige.",
+  "hudContent": "HUD-Informationen",
+  "hudTime": "Uhrzeit anzeigen",
+  "hudCompass": "Kompass anzeigen",
+  "hudTrip": "Fahrtstrecke anzeigen",
+  "soundAlert": "Tonwarnung",
+  "vibrationAlert": "Vibrationswarnung",
+  "voiceAlert": "Sprachwarnung",
+  "alertVolume": "Warnlautstärke",
+  "alertOffset": "Warntoleranz über der Grenze",
+  "alertOffsetDescription": "Die Warnung beginnt bei deiner Grenze plus dieser Toleranz.",
+  "calibration": "Streckenkalibrierung",
+  "calibrationDescription": "Passe zukünftige Streckenmessungen an einen Referenzkilometerzähler an. GPS-Geschwindigkeit und zuvor gespeicherte Strecken bleiben unverändert.",
+  "language": "Sprache",
+  "systemLanguage": "Systemsprache",
+  "languageEnglish": "English",
+  "languageSpanish": "Español",
+  "languageFrench": "Français",
+  "languageGerman": "Deutsch",
+  "languageArabic": "العربية",
+  "trackingSettings": "Tracking und Aufzeichnung",
+  "autoRecordTrips": "Fahrten automatisch speichern",
+  "autoRecordTripsDescription": "Speichere jede von dir ausdrücklich gestartete Sitzung. Beende eine Fahrt, um sie zum Verlauf hinzuzufügen. GPS startet nie automatisch.",
+  "recordRoute": "Genaue Route speichern",
+  "recordRouteDescription": "Speichere Start- und Endkoordinaten sowie akzeptierte GPS-Punkte lokal für Karte, Wiedergabe und GPX-Export. Ausgeschaltet werden nur Statistiken und Geschwindigkeitswerte gespeichert. Vorhandene Routen bleiben bis zum Löschen erhalten.",
+  "backgroundTracking": "Bei minimierter App fortsetzen",
+  "backgroundTrackingDescription": "Nach Fahrt starten hält eine sichtbare Benachrichtigung des Standortdienstes GPS außerhalb der App aktiv. Beende die Aufzeichnung mit Stopp. Es wird keine Berechtigung für den Hintergrundstandort angefordert.",
+  "economyGps": "Akkuschonendes GPS",
+  "economyGpsDescription": "Fordert etwa alle 3 Sekunden statt jede Sekunde eine Position an. Genauigkeit und Reaktionszeit hängen vom Gerät ab.",
+  "overlaySettings": "Schwebender Tachometer",
+  "overlayDescription": "Zeige die Geschwindigkeit während einer Fahrt über anderen Apps. Ziehe die Anzeige zum Verschieben und den Eckgriff zum Ändern der Größe.",
+  "enableOverlay": "Schwebenden Tachometer anzeigen",
+  "disableOverlay": "Schwebenden Tachometer ausblenden",
+  "overlayPermissionTitle": "Schwebenden Tachometer erlauben?",
+  "overlayPermissionBody": "Android benötigt die Berechtigung, die Geschwindigkeit über Navigations- und anderen Apps anzuzeigen. Das Fenster zeigt nur Geschwindigkeit und Warnstatus dieser App und liest keine Inhalte anderer Apps. Blende es hier aus oder stoppe die Fahrt über die Benachrichtigung.",
+  "openOverlaySettings": "Anzeige über anderen Apps erlauben",
+  "continueAction": "Weiter",
+  "backupSettings": "Lokale Sicherung und Daten",
+  "backupDescription": "Sicherungen enthalten Einstellungen, optionales Körpergewicht, Fahrten, genaue Routen, Kraftstoff und Fahrzeugkosten. Teile sie nur mit vertrauenswürdigen Personen und Apps. Kein automatischer Upload.",
+  "exportBackup": "Lokale Sicherung exportieren",
+  "restoreBackup": "Lokale Sicherung wiederherstellen",
+  "restoreBackupTitle": "Sicherung wiederherstellen?",
+  "restoreBackupMessage": "Eine gültige Sicherung ersetzt Fahrten, Kilometerstand, Kraftstoff, Kosten und Einstellungen auf diesem Gerät. Exportiere vorher eine Sicherung, um deine Daten zu behalten. Die Aufzeichnung wird gestoppt.",
+  "deleteAllData": "Alle lokalen Daten löschen",
+  "deleteAllDataTitle": "Alle lokalen Daten löschen?",
+  "deleteAllDataMessage": "Die Aufzeichnung wird gestoppt. Fahrten, genaue Routen, Kilometerstand, Kraftstoff, Kosten und Einstellungen auf diesem Gerät werden gelöscht. Bereits exportierte Dateien bleiben bestehen.",
+  "deleteAction": "Löschen",
+  "resetPreferences": "Einstellungen zurücksetzen",
+  "resetPreferencesTitle": "Einstellungen zurücksetzen?",
+  "resetPreferencesMessage": "Stellt die Standardeinstellungen für Anzeige, Warnungen und Aufzeichnung wieder her. Gespeicherte Fahrten und der Kilometerzähler bleiben erhalten.",
+  "odometer": "Gesamtkilometerzähler",
+  "todayDistance": "Heute",
+  "weekDistance": "Diese Woche",
+  "monthDistance": "Diesen Monat",
+  "compass": "Gerätekompass",
+  "compassUnavailable": "Kompass auf diesem Gerät nicht verfügbar",
+  "courseOverGround": "GPS-Bewegungsrichtung",
+  "tripHistory": "Fahrtverlauf",
+  "finishTrip": "Fahrt beenden und speichern",
+  "platformUnsupported": "Dieses Gerät unterstützt diese Funktion nicht.",
+  "invalidBackup": "Die ausgewählte Sicherung ist ungültig oder inkompatibel.",
+  "storageMessage": "Deine lokalen Daten konnten nicht gelesen oder gespeichert werden. Versuche es erneut.",
+  "warningSpoken": "Du überschreitest deine gewählte Geschwindigkeitsgrenze.",
+  "notificationTitle": "Tachometer-Aufzeichnung",
+  "notificationStop": "Stopp",
+  "nativePaused": "Aufzeichnung pausiert",
+  "nativeTracking": "Aufzeichnung aktiv",
+  "overlayPermissionMessage": "Erlaube dem Tachometer, über anderen Apps zu erscheinen. Kehre dann zurück und aktiviere das schwebende Fenster.",
+  "backupRestored": "Deine Sicherung wurde wiederhergestellt.",
+  "sessionRecordingOff": "Fahrtspeicherung aus · Kilometerzähler bleibt auf diesem Gerät",
+  "timeLabel": "Uhrzeit",
+  "tripHistoryEmpty": "Hier erscheinen deine Fahrten",
+  "tripHistoryEmptyDescription": "Starte eine Fahrt in der Anzeige und beende sie anschließend, um Statistiken und die optionale Route auf diesem Gerät zu behalten.",
+  "tripDetail": "Fahrtdetails",
+  "tripNotFound": "Diese Fahrt ist nicht mehr verfügbar.",
+  "tripInProgress": "Läuft",
+  "tripFinished": "Beendet",
+  "deleteTrip": "Fahrt löschen",
+  "deleteTripTitle": "Diese Fahrt löschen?",
+  "deleteTripMessage": "Statistiken und gespeicherte Route werden dauerhaft von diesem Gerät entfernt. Gesamtkilometerzähler und Streckensummen nach Zeitraum bleiben erhalten. Exportierte Dateien werden nicht gelöscht.",
+  "tripRoute": "Aufgezeichnete Route",
+  "tripRouteDescription": "Offline-Karte mit groben Landumrissen. Zum Zoomen zwei Finger verwenden, zum Erkunden ziehen. Straßen sind nicht enthalten. Unterbrechungen kennzeichnen Pausen oder Zeiten ohne gespeicherte Route.",
+  "tripNoRoute": "Keine Route gespeichert. Geschwindigkeitswerte und Statistiken sind weiterhin verfügbar.",
+  "tripStartPoint": "Erster gespeicherter Punkt",
+  "tripEndPoint": "Letzter gespeicherter Punkt",
+  "tripSpeedGraph": "Geschwindigkeit im Zeitverlauf",
+  "tripSpeedGraphDescription": "Geschwindigkeitswerte werden über der vergangenen Fahrtzeit dargestellt. Lücken kennzeichnen Pausen und fehlende GPS-Intervalle.",
+  "tripNoSamples": "Keine gültigen GPS-Messwerte aufgezeichnet.",
+  "tripReplay": "Routenwiedergabe",
+  "tripReplayPlay": "Routenwiedergabe starten",
+  "tripReplayPause": "Routenwiedergabe pausieren",
+  "tripReplayProgress": "Wiedergabeposition",
+  "tripReplayDescription": "Die Wiedergabe folgt den gespeicherten Messwerten. Gestrichelte Abschnitte und Warnmarkierungen zeigen Werte oberhalb der bei der Aufzeichnung gewählten Grenze.",
+  "tripOverLimitLegend": "Warnmarkierungen: gewählte Grenze überschritten",
+  "tripExportGpx": "GPX-Route teilen",
+  "tripExportCsv": "CSV-Messwerte teilen",
+  "tripShareSummary": "Fahrtzusammenfassung teilen",
+  "tripExportDisclosure": "Exporte können gespeicherte genaue Koordinaten enthalten. Teile sie nur mit vertrauenswürdigen Personen und Apps.",
+  "tripChartSemantics": "Diagramm der aufgezeichneten Geschwindigkeit",
+  "tripRouteSemantics": "Gespeicherte Route mit Start-, End- und Wiedergabemarkierungen",
+  "tripSummaryText": "Fahrt am {date}\nStrecke: {distance}\nDauer: {duration}\nDurchschnitt: {average}\nHöchstgeschwindigkeit: {maximum}",
+  "@tripSummaryText": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "distance": {
+        "type": "String"
+      },
+      "duration": {
+        "type": "String"
+      },
+      "average": {
+        "type": "String"
+      },
+      "maximum": {
+        "type": "String"
+      }
+    }
+  },
+  "tripSamplePosition": "Messwert {position} von {total}",
+  "@tripSamplePosition": {
+    "placeholders": {
+      "position": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "tripSampleTime": "Aufgezeichnet um {time}",
+  "@tripSampleTime": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "tripBasemapAttribution": "Landumrisse: Natural Earth (gemeinfrei). Grobe globale Basiskarte ohne Straßen.",
+  "activitySettings": "Aktivität",
+  "activityDescription": "Jede Aktivität merkt sich Einheit, Anzeige und Skalenbereich.",
+  "activityMode": "Aktivitätsmodus",
+  "activityCar": "Auto",
+  "activityCycling": "Radfahren",
+  "activityWalking": "Gehen",
+  "activityRunning": "Laufen",
+  "activityBoating": "Bootfahren",
+  "activityLocked": "Beende oder setze die aktuelle Fahrt zurück, bevor du Aktivität oder Gewicht änderst.",
+  "bodyWeight": "Körpergewicht",
+  "bodyWeightDescription": "Wird lokal für eine grobe Kalorienschätzung gespeichert und in lokale Sicherungen aufgenommen.",
+  "bodyWeightEnabled": "Kalorien schätzen",
+  "bodyWeightEnabledDescription": "Gib dein Gewicht an, um Kalorien beim Radfahren, Gehen und Laufen zu schätzen.",
+  "kilograms": "kg",
+  "estimatedCalories": "Geschätzte Kalorien",
+  "kilocalories": "kcal",
+  "calorieEstimateDescription": "Grobe Schätzung der Gesamtenergie bei mittlerer Belastung anhand von Bewegungszeit und Gewicht. Der tatsächliche Verbrauch variiert.",
+  "fuelCosts": "Kraftstoff und Fahrzeugkosten",
+  "fuelLogEmpty": "Noch keine Kraftstoff- oder Fahrzeugkosten",
+  "fuelLogDescription": "Erfasse Kraftstoff und die damit gefahrene Strecke. Bei reiner Wartung bleiben Kraftstoff und Strecke null. Gespeicherte Fahrten dienen als Fahrtenbuch. Währungen bleiben getrennt; es erfolgt keine Umrechnung.",
+  "fuelAddEntry": "Eintrag hinzufügen",
+  "fuelEditEntry": "Eintrag bearbeiten",
+  "fuelDeleteEntry": "Eintrag löschen",
+  "fuelDeleteConfirmation": "Diesen Kraftstoff- und Kosteneintrag löschen?",
+  "fuelEntryDate": "Datum",
+  "fuelDistance": "Gefahrene Strecke",
+  "fuelVolume": "Verbrauchter Kraftstoff",
+  "fuelVolumeUnit": "Kraftstoffeinheit",
+  "fuelDistanceUnit": "Streckeneinheit",
+  "fuelLiters": "L",
+  "fuelUsGallons": "US-Gallonen",
+  "fuelCost": "Kraftstoffkosten",
+  "fuelOtherCost": "Sonstige Fahrzeugkosten",
+  "fuelCurrency": "Währungscode",
+  "fuelCurrencyHint": "Drei Buchstaben, etwa USD oder AED",
+  "fuelNote": "Notiz (optional)",
+  "fuelSaveEntry": "Eintrag speichern",
+  "fuelValidation": "Gib gültige Zahlen ein. Kraftstoff und Strecke müssen positiv sein oder bei reiner Wartung mit sonstigen Kosten beide null. Kosten dürfen nicht negativ sein. Verwende einen Währungscode aus drei Buchstaben und höchstens 500 Zeichen als Notiz.",
+  "fuelSaved": "Eintrag gespeichert",
+  "fuelDeleted": "Eintrag gelöscht",
+  "fuelTotalCost": "Gesamte Fahrzeugkosten",
+  "fuelConsumption": "Kraftstoffverbrauch",
+  "fuelLoggedDistance": "Erfasste Strecke",
+  "fuelCostPerDistance": "Kosten pro erfasster Strecke",
+  "fuelNoConsumption": "Erfasse Kraftstoff und Strecke, um den Verbrauch zu berechnen",
+  "fuelLitersPer100Kilometers": "L/100 km",
+  "fuelMilesPerUsGallon": "mi/US-Gallone",
+  "fuelMileageLog": "Fahrtenbuch",
+  "fuelAmountPerDistance": "{amount}/{unit}",
+  "@fuelAmountPerDistance": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      },
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "focusedDisplay": "Fokussierte Anzeige",
+  "exitFocusedDisplay": "Fokussierte Anzeige verlassen",
+  "settingsSections": "Einstellungsbereiche",
+  "allSettings": "Alle Einstellungen",
+  "allTrips": "Alle Fahrten",
+  "activeTrips": "Laufend",
+  "finishedTrips": "Abgeschlossene Fahrten",
+  "filterDates": "Datum filtern",
+  "clearFilters": "Filter löschen",
+  "previousPage": "Vorherige Seite",
+  "nextPage": "Nächste Seite",
+  "historyPage": "Seite {page}",
+  "historyNoMatches": "Keine Fahrten entsprechen diesen Filtern.",
+  "loadRegionalMap": "Regionale Karte laden",
+  "removeRegionalMap": "Regionale Karte entfernen",
+  "regionalMapDisclosure": "Nur lokale GeoJSON-Linien (bis 5 MB). Verwenden Sie zulässige Daten mit Quellenangabe. Die Ebene bleibt nur bei geöffnetem Fahrtbildschirm im Speicher und wird nicht gespeichert oder gesichert.",
+  "regionalMapFailure": "Die regionale Karte konnte nicht geladen werden. Wählen Sie eine gültige GeoJSON-FeatureCollection mit LineString- oder MultiLineString-Geometrie.",
+  "regionalMapSource": "Regionale Karte: {source}",
+  "@historyPage": {
+    "placeholders": {
+      "page": {
+        "type": "String"
+      }
+    }
+  },
+  "@regionalMapSource": {
+    "placeholders": {
+      "source": {
+        "type": "String"
+      }
+    }
+  }
+}

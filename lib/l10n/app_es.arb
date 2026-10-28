@@ -1,0 +1,422 @@
+{
+  "@@locale": "es",
+  "appTitle": "Velocímetro",
+  "appTagline": "PRECISO. PRIVADO. GRATIS.",
+  "dashboardTitle": "Panel en directo",
+  "dashboardSubtitle": "Más claridad en cada trayecto.",
+  "settings": "Ajustes",
+  "backToDashboard": "Volver al panel",
+  "digital": "Digital",
+  "analog": "Analógico",
+  "hud": "HUD",
+  "displayMode": "Modo de visualización",
+  "currentSpeed": "VELOCIDAD ACTUAL",
+  "speedUnit": "Unidad de velocidad",
+  "unitKilometers": "km/h",
+  "unitMiles": "mi/h",
+  "unitMeters": "m/s",
+  "unitKnots": "kn",
+  "unitKilometersFull": "Kilómetros por hora",
+  "unitMilesFull": "Millas por hora",
+  "unitMetersFull": "Metros por segundo",
+  "unitKnotsFull": "Nudos",
+  "kilometers": "km",
+  "miles": "mi",
+  "nauticalMiles": "mn",
+  "meters": "m",
+  "gpsStandby": "GPS en espera",
+  "gpsSearching": "Buscando señal GPS",
+  "gpsLive": "GPS conectado",
+  "gpsPaused": "GPS en pausa",
+  "gpsUnavailable": "GPS no disponible",
+  "accuracyValue": "Precisión de ±{value} m",
+  "@accuracyValue": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "speedSemantics": "Velocidad actual: {value} {unit}",
+  "@speedSemantics": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      },
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "startPrompt": "Cuando quieras",
+  "startHint": "Inicia un viaje para ver tu velocidad GPS.",
+  "searchingHint": "Una vista despejada del cielo ayuda al GPS a localizarte.",
+  "pausedHint": "El viaje está en pausa. Continúa cuando quieras.",
+  "trackingHint": "GPS activo. Usa los controles del viaje o la notificación para detenerlo.",
+  "thisTrip": "Este viaje",
+  "sessionOnly": "Viaje local · se guarda al finalizar",
+  "tripDistance": "DISTANCIA",
+  "averageSpeed": "VELOCIDAD MEDIA",
+  "topSpeed": "VELOCIDAD MÁXIMA",
+  "tripDuration": "DURACIÓN",
+  "movingAverage": "Media en movimiento",
+  "movingTime": "Tiempo en movimiento",
+  "altitude": "Altitud",
+  "heading": "Rumbo",
+  "unavailableValue": "—",
+  "durationValue": "{hours}:{minutes}:{seconds}",
+  "@durationValue": {
+    "placeholders": {
+      "hours": {
+        "type": "String"
+      },
+      "minutes": {
+        "type": "String"
+      },
+      "seconds": {
+        "type": "String"
+      }
+    }
+  },
+  "headingValue": "{value}°",
+  "@headingValue": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "measurementValue": "{value} {unit}",
+  "@measurementValue": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      },
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "startTrip": "Iniciar viaje",
+  "pauseTrip": "Pausar viaje",
+  "resumeTrip": "Continuar viaje",
+  "startingTrip": "Conectando…",
+  "resetTrip": "Reiniciar viaje",
+  "resetTitle": "¿Empezar de nuevo?",
+  "resetMessage": "Esto detiene el seguimiento y descarta el viaje actual. Se conservan los viajes anteriores, el odómetro total y las distancias por período.",
+  "cancel": "Cancelar",
+  "reset": "Reiniciar",
+  "privacyFooter": "Sin conexión. Sin cuenta. Sin subidas.",
+  "safeDriving": "Configura antes de moverte. Mantén la atención en la carretera.",
+  "speedLimit": "Límite de velocidad",
+  "limitValue": "LÍMITE {value} {unit}",
+  "@limitValue": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      },
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "overLimit": "Has superado tu límite",
+  "overLimitSemantics": "Aviso: has superado el límite seleccionado.",
+  "mirrorHud": "Reflejar HUD",
+  "mirrorHudSubtitle": "Invierte la lectura para reflejarla en el parabrisas.",
+  "hudHint": "Lectura clara de un vistazo. Coloca el teléfono de forma segura antes de moverte.",
+  "displaySettings": "Tu pantalla",
+  "displaySettingsDescription": "Adapta el panel a tu gusto.",
+  "simpleView": "Vista sencilla",
+  "simpleViewSubtitle": "Céntrate en la velocidad actual.",
+  "darkMode": "Apariencia oscura",
+  "darkModeSubtitle": "Una pantalla más suave para viajar de noche.",
+  "warningSettings": "Avisos de velocidad",
+  "warningSettingsDescription": "Elige un límite personal y los avisos que prefieras.",
+  "enableWarning": "Activar aviso de velocidad",
+  "enableWarningSubtitle": "Avisa al superar el límite seleccionado y su margen.",
+  "warningScope": "Sonido, vibración y voz son opcionales. Los avisos son una ayuda; mantén la atención en la carretera. Los ajustes de sonido y el hardware pueden afectar a las alertas.",
+  "decreaseLimit": "Reducir límite de velocidad",
+  "increaseLimit": "Aumentar límite de velocidad",
+  "privacySettings": "Privacidad desde el diseño",
+  "privacySettingsDescription": "Tu ubicación permite medir la velocidad en este dispositivo. No se suben datos de ubicación ni de viajes.",
+  "foregroundDisclosure": "El GPS solo se inicia al tocar Iniciar viaje. Con el seguimiento en segundo plano activado, una notificación visible mantiene el seguimiento al salir y ofrece un botón Detener. Los viajes y las rutas precisas opcionales permanecen en este dispositivo hasta que los elimines o exportes un archivo. Sin cuenta ni subidas automáticas.",
+  "precisionDisclaimer": "Las lecturas GPS pueden variar según la señal. Esta app es una ayuda, no sustituye al velocímetro del vehículo.",
+  "permissionEyebrow": "TODO LISTO PARA EMPEZAR",
+  "permissionTitle": "Tu viaje.\nTu privacidad.",
+  "permissionDescription": "Una lectura clara de tu velocidad empieza con el GPS del teléfono.",
+  "permissionLocationTitle": "Ubicación con un propósito",
+  "permissionLocationBody": "La ubicación precisa permite leer la velocidad del GPS y medir la distancia del viaje.",
+  "permissionOfflineTitle": "Siempre en tu dispositivo",
+  "permissionOfflineBody": "Sin cuenta, subidas automáticas ni necesidad de internet. Los viajes y rutas precisas opcionales se guardan en este dispositivo. Puedes desactivar las rutas, exportar una copia local o eliminar tus datos en Ajustes.",
+  "permissionControlTitle": "Tú tienes el control",
+  "permissionControlBody": "El GPS se inicia al tocar Iniciar viaje. Una notificación visible puede mantener el seguimiento con la app minimizada y ofrece un botón Detener. Configura el segundo plano, las rutas y los avisos en Ajustes.",
+  "permissionContinue": "Ir al panel",
+  "permissionRequestHint": "Pediremos permiso de ubicación al iniciar el primer viaje.",
+  "failurePermissionDenied": "Se necesita permiso de ubicación para mostrar la velocidad GPS. Toca Iniciar viaje para reintentarlo.",
+  "failurePermissionDeniedForever": "La ubicación está desactivada para esta app. Activa la ubicación precisa en sus ajustes para iniciar un viaje.",
+  "failureLocationDisabled": "La ubicación del dispositivo está desactivada. Actívala para obtener la velocidad GPS.",
+  "failureLocationUnavailable": "Aún no hay una lectura GPS fiable. Reinténtalo con una vista despejada del cielo.",
+  "failureUnsupported": "Esta plataforma no admite seguimiento GPS. Puedes previsualizar el panel y los ajustes de pantalla.",
+  "failureStorage": "No se pudieron leer o guardar tus datos locales. Inténtalo de nuevo.",
+  "failureUnexpected": "Algo interrumpió el viaje. Inténtalo de nuevo.",
+  "openAppSettings": "Abrir ajustes de la app",
+  "openLocationSettings": "Activar ubicación",
+  "dismissError": "Cerrar mensaje",
+  "preferencesLoadFailure": "No se pudieron cargar tus ajustes guardados.",
+  "retry": "Reintentar",
+  "continueWithDefaults": "Continuar con ajustes predeterminados",
+  "loadingPreferences": "Preparando tu panel…",
+  "startupTitle": "Un viaje más claro empieza aquí.",
+  "keepAwake": "Mantener pantalla encendida",
+  "keepAwakeDescription": "Evita que la pantalla se apague mientras sigues un viaje con el panel visible.",
+  "brightness": "Brillo de pantalla",
+  "systemBrightness": "Usar brillo del sistema",
+  "brightnessDescription": "Solo cambia esta app. Al salir vuelve el brillo del sistema.",
+  "accentColor": "Color del instrumento",
+  "colorLime": "Lima",
+  "colorBlue": "Azul",
+  "colorCyan": "Cian",
+  "colorAmber": "Ámbar",
+  "colorRose": "Rosado",
+  "colorLavender": "Lavanda",
+  "colorMint": "Menta",
+  "colorOrange": "Naranja",
+  "colorWhite": "Blanco",
+  "colorPink": "Rosa",
+  "leftHanded": "Diseño para zurdos",
+  "leftHandedDescription": "Coloca el instrumento a la izquierda en diseños anchos.",
+  "gaugeRange": "Rango completo del indicador",
+  "nightHud": "HUD de máximo contraste",
+  "nightHudDescription": "Usa un HUD negro puro con lectura brillante para conducir de noche.",
+  "hudContent": "Información del HUD",
+  "hudTime": "Mostrar hora",
+  "hudCompass": "Mostrar brújula",
+  "hudTrip": "Mostrar distancia del viaje",
+  "soundAlert": "Aviso sonoro",
+  "vibrationAlert": "Aviso por vibración",
+  "voiceAlert": "Aviso de voz",
+  "alertVolume": "Volumen del aviso",
+  "alertOffset": "Margen de aviso sobre el límite",
+  "alertOffsetDescription": "El aviso se activa al superar tu límite más este margen.",
+  "calibration": "Calibración de distancia",
+  "calibrationDescription": "Ajusta las mediciones futuras para coincidir con un odómetro de referencia. La velocidad GPS y las distancias ya guardadas no cambian.",
+  "language": "Idioma",
+  "systemLanguage": "Idioma del sistema",
+  "languageEnglish": "English",
+  "languageSpanish": "Español",
+  "languageFrench": "Français",
+  "languageGerman": "Deutsch",
+  "languageArabic": "العربية",
+  "trackingSettings": "Seguimiento y grabación",
+  "autoRecordTrips": "Guardar viajes automáticamente",
+  "autoRecordTripsDescription": "Guarda cada sesión que inicies expresamente. Finaliza el viaje para añadirlo al historial. El GPS nunca se inicia solo.",
+  "recordRoute": "Guardar ruta precisa",
+  "recordRouteDescription": "Guarda localmente los puntos GPS aceptados y las coordenadas de inicio y fin para el mapa, la reproducción y la exportación GPX. Desactívalo para guardar solo estadísticas y muestras de velocidad. Las rutas existentes se conservan hasta eliminarlas.",
+  "backgroundTracking": "Continuar al minimizar",
+  "backgroundTrackingDescription": "Tras tocar Iniciar viaje, una notificación visible del servicio de ubicación mantiene el GPS activo fuera de la app. Usa Detener para finalizar la grabación. No se pide permiso de ubicación en segundo plano.",
+  "economyGps": "GPS de bajo consumo",
+  "economyGpsDescription": "Solicita una posición cada 3 segundos aproximadamente en lugar de cada segundo. La precisión y la respuesta dependen del dispositivo.",
+  "overlaySettings": "Velocímetro flotante",
+  "overlayDescription": "Muestra la velocidad sobre otras apps durante el viaje. Arrastra para mover y usa la esquina para cambiar el tamaño.",
+  "enableOverlay": "Mostrar velocímetro flotante",
+  "disableOverlay": "Ocultar velocímetro flotante",
+  "overlayPermissionTitle": "¿Permitir el velocímetro flotante?",
+  "overlayPermissionBody": "Android necesita permiso para mostrar la velocidad sobre apps de navegación y otras apps. La ventana solo muestra la velocidad y el aviso de esta app; no lee contenido de otras apps. Puedes ocultarla aquí o detener el viaje desde la notificación.",
+  "openOverlaySettings": "Permitir mostrar sobre otras apps",
+  "continueAction": "Continuar",
+  "backupSettings": "Copia local y datos",
+  "backupDescription": "Las copias incluyen ajustes, peso opcional, viajes, rutas precisas, combustible y gastos del vehículo. Compártelas solo con personas y aplicaciones de confianza. No hay subidas automáticas.",
+  "exportBackup": "Exportar copia local",
+  "restoreBackup": "Restaurar copia local",
+  "restoreBackupTitle": "¿Restaurar una copia?",
+  "restoreBackupMessage": "Una copia válida reemplaza los viajes, odómetro, combustible, gastos y ajustes de este dispositivo. Exporta una copia antes para conservar tus datos. El seguimiento se detiene antes de restaurar.",
+  "deleteAllData": "Eliminar todos los datos locales",
+  "deleteAllDataTitle": "¿Eliminar todos los datos locales?",
+  "deleteAllDataMessage": "Esto detiene el seguimiento y elimina viajes, rutas precisas, odómetro, combustible, gastos y ajustes de este dispositivo. Los archivos exportados no se eliminan.",
+  "deleteAction": "Eliminar",
+  "resetPreferences": "Restablecer ajustes",
+  "resetPreferencesTitle": "¿Restablecer ajustes?",
+  "resetPreferencesMessage": "Restaura los ajustes predeterminados de pantalla, avisos y grabación. Los viajes guardados y el odómetro se conservan.",
+  "odometer": "Odómetro total",
+  "todayDistance": "Hoy",
+  "weekDistance": "Esta semana",
+  "monthDistance": "Este mes",
+  "compass": "Brújula del dispositivo",
+  "compassUnavailable": "Brújula no disponible en este dispositivo",
+  "courseOverGround": "Rumbo GPS sobre el terreno",
+  "tripHistory": "Historial de viajes",
+  "finishTrip": "Finalizar y guardar viaje",
+  "platformUnsupported": "Este dispositivo no admite esta función.",
+  "invalidBackup": "La copia seleccionada no es válida o no es compatible.",
+  "storageMessage": "No se pudieron leer o guardar tus datos locales. Inténtalo de nuevo.",
+  "warningSpoken": "Has superado el límite de velocidad seleccionado.",
+  "notificationTitle": "Seguimiento del velocímetro",
+  "notificationStop": "Detener",
+  "nativePaused": "Seguimiento en pausa",
+  "nativeTracking": "Seguimiento activo",
+  "overlayPermissionMessage": "Permite que el velocímetro aparezca sobre otras apps; después vuelve y activa la ventana flotante.",
+  "backupRestored": "Se ha restaurado tu copia.",
+  "sessionRecordingOff": "Guardado desactivado · el odómetro permanece en este dispositivo",
+  "timeLabel": "Hora",
+  "tripHistoryEmpty": "Tus viajes aparecerán aquí",
+  "tripHistoryEmptyDescription": "Inicia un viaje en el panel y finalízalo para conservar las estadísticas y la ruta opcional en este dispositivo.",
+  "tripDetail": "Detalles del viaje",
+  "tripNotFound": "Este viaje ya no está disponible.",
+  "tripInProgress": "En curso",
+  "tripFinished": "Finalizado",
+  "deleteTrip": "Eliminar viaje",
+  "deleteTripTitle": "¿Eliminar este viaje?",
+  "deleteTripMessage": "Esto elimina permanentemente las estadísticas y la ruta guardada de este dispositivo. El odómetro total y las distancias por período se conservan. No se eliminan los archivos exportados.",
+  "tripRoute": "Ruta grabada",
+  "tripRouteDescription": "Mapa sin conexión con contornos terrestres aproximados. Pellizca para ampliar y arrastra para explorar. No incluye calles. Los cortes indican pausas o períodos sin ruta guardada.",
+  "tripNoRoute": "No se guardó ninguna ruta. Las muestras de velocidad y estadísticas siguen disponibles.",
+  "tripStartPoint": "Primer punto guardado",
+  "tripEndPoint": "Último punto guardado",
+  "tripSpeedGraph": "Velocidad a lo largo del tiempo",
+  "tripSpeedGraphDescription": "Las muestras de velocidad se muestran según el tiempo transcurrido del viaje. Los huecos separan pausas e intervalos sin GPS.",
+  "tripNoSamples": "No se grabaron muestras GPS aceptadas.",
+  "tripReplay": "Reproducción de ruta",
+  "tripReplayPlay": "Reproducir ruta",
+  "tripReplayPause": "Pausar reproducción",
+  "tripReplayProgress": "Posición de reproducción",
+  "tripReplayDescription": "La reproducción sigue las muestras guardadas. Los segmentos discontinuos y marcadores de aviso identifican muestras por encima del límite seleccionado al grabar.",
+  "tripOverLimitLegend": "Marcadores de aviso: por encima del límite",
+  "tripExportGpx": "Compartir ruta GPX",
+  "tripExportCsv": "Compartir muestras CSV",
+  "tripShareSummary": "Compartir resumen del viaje",
+  "tripExportDisclosure": "Las exportaciones pueden incluir coordenadas precisas guardadas. Compártelas solo con personas y apps de confianza.",
+  "tripChartSemantics": "Gráfico de velocidad grabada",
+  "tripRouteSemantics": "Ruta guardada con marcadores de inicio, fin y reproducción",
+  "tripSummaryText": "Viaje del {date}\nDistancia: {distance}\nDuración: {duration}\nMedia: {average}\nVelocidad máxima: {maximum}",
+  "@tripSummaryText": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "distance": {
+        "type": "String"
+      },
+      "duration": {
+        "type": "String"
+      },
+      "average": {
+        "type": "String"
+      },
+      "maximum": {
+        "type": "String"
+      }
+    }
+  },
+  "tripSamplePosition": "Muestra {position} de {total}",
+  "@tripSamplePosition": {
+    "placeholders": {
+      "position": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "tripSampleTime": "Grabado a las {time}",
+  "@tripSampleTime": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "tripBasemapAttribution": "Contornos terrestres: Natural Earth (dominio público). Mapa global aproximado, sin calles.",
+  "activitySettings": "Actividad",
+  "activityDescription": "Cada actividad recuerda su unidad, estilo de indicador y rango.",
+  "activityMode": "Modo de actividad",
+  "activityCar": "Coche",
+  "activityCycling": "Ciclismo",
+  "activityWalking": "Caminar",
+  "activityRunning": "Correr",
+  "activityBoating": "Navegación",
+  "activityLocked": "Finaliza o reinicia el viaje actual antes de cambiar la actividad o el peso.",
+  "bodyWeight": "Peso corporal",
+  "bodyWeightDescription": "Se guarda localmente para estimar calorías. Se incluye en las copias de seguridad locales.",
+  "bodyWeightEnabled": "Estimar calorías",
+  "bodyWeightEnabledDescription": "Añade tu peso para estimar las calorías al pedalear, caminar y correr.",
+  "kilograms": "kg",
+  "estimatedCalories": "Calorías estimadas",
+  "kilocalories": "kcal",
+  "calorieEstimateDescription": "Estimación aproximada de energía total a esfuerzo moderado, según el tiempo en movimiento y el peso. El consumo real varía.",
+  "fuelCosts": "Combustible y costes del vehículo",
+  "fuelLogEmpty": "Aún no hay gastos de combustible o del vehículo",
+  "fuelLogDescription": "Registra el combustible y la distancia recorrida con él. Para mantenimiento, deja combustible y distancia en cero. Usa los viajes guardados como registro de kilometraje. Los totales por moneda se mantienen separados, sin tipos de cambio.",
+  "fuelAddEntry": "Añadir registro",
+  "fuelEditEntry": "Editar registro",
+  "fuelDeleteEntry": "Eliminar registro",
+  "fuelDeleteConfirmation": "¿Eliminar este registro de combustible y gastos?",
+  "fuelEntryDate": "Fecha",
+  "fuelDistance": "Distancia recorrida",
+  "fuelVolume": "Combustible usado",
+  "fuelVolumeUnit": "Unidad de combustible",
+  "fuelDistanceUnit": "Unidad de distancia",
+  "fuelLiters": "L",
+  "fuelUsGallons": "gal EE. UU.",
+  "fuelCost": "Coste del combustible",
+  "fuelOtherCost": "Otros gastos del vehículo",
+  "fuelCurrency": "Código de moneda",
+  "fuelCurrencyHint": "Tres letras, como USD o AED",
+  "fuelNote": "Nota (opcional)",
+  "fuelSaveEntry": "Guardar registro",
+  "fuelValidation": "Introduce números válidos. El combustible y la distancia deben ser positivos, o ambos cero para mantenimiento con otros gastos. Los costes no pueden ser negativos. Usa un código de moneda de tres letras y una nota de hasta 500 caracteres.",
+  "fuelSaved": "Registro guardado",
+  "fuelDeleted": "Registro eliminado",
+  "fuelTotalCost": "Gastos totales del vehículo",
+  "fuelConsumption": "Consumo de combustible",
+  "fuelLoggedDistance": "Distancia registrada",
+  "fuelCostPerDistance": "Coste por distancia registrada",
+  "fuelNoConsumption": "Añade combustible y distancia para calcular el consumo",
+  "fuelLitersPer100Kilometers": "L/100 km",
+  "fuelMilesPerUsGallon": "mi/gal EE. UU.",
+  "fuelMileageLog": "Registro de kilometraje",
+  "fuelAmountPerDistance": "{amount}/{unit}",
+  "@fuelAmountPerDistance": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      },
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "focusedDisplay": "Vista enfocada",
+  "exitFocusedDisplay": "Salir de la vista enfocada",
+  "settingsSections": "Secciones de ajustes",
+  "allSettings": "Todos los ajustes",
+  "allTrips": "Todos los viajes",
+  "activeTrips": "En curso",
+  "finishedTrips": "Viajes finalizados",
+  "filterDates": "Filtrar fechas",
+  "clearFilters": "Borrar filtros",
+  "previousPage": "Página anterior",
+  "nextPage": "Página siguiente",
+  "historyPage": "Página {page}",
+  "historyNoMatches": "Ningún viaje coincide con estos filtros.",
+  "loadRegionalMap": "Cargar mapa regional",
+  "removeRegionalMap": "Eliminar mapa regional",
+  "regionalMapDisclosure": "Solo líneas GeoJSON locales (hasta 5 MB). Usa datos autorizados con su fuente. La capa permanece en memoria mientras esta pantalla esté abierta; no se guarda ni se incluye en las copias de seguridad.",
+  "regionalMapFailure": "No se pudo cargar el mapa regional. Elige una FeatureCollection GeoJSON válida con geometría LineString o MultiLineString.",
+  "regionalMapSource": "Mapa regional: {source}",
+  "@historyPage": {
+    "placeholders": {
+      "page": {
+        "type": "String"
+      }
+    }
+  },
+  "@regionalMapSource": {
+    "placeholders": {
+      "source": {
+        "type": "String"
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Compteur de vitesse</string>
+    <string name="tracking_channel">Vitesse en direct</string>
+    <string name="tracking_channel_description">Vitesse et commande Arrêter pendant le trajet</string>
+    <string name="tracking_waiting">En attente du GPS</string>
+    <string name="tracking_idle">Suivi arrêté</string>
+    <string name="tracking_stop">Arrêter</string>
+    <string name="widget_name">Compteur en direct</string>
+    <string name="widget_description">Vitesse pendant le suivi. Touchez pour ouvrir le compteur.</string>
+    <string name="overlay_close">Fermer le compteur flottant</string>
+    <string name="overlay_resize">Faites glisser pour redimensionner</string>
+</resources>

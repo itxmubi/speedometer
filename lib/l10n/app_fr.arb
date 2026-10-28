@@ -1,0 +1,422 @@
+{
+  "@@locale": "fr",
+  "appTitle": "Compteur de vitesse",
+  "appTagline": "PRÉCIS. PRIVÉ. GRATUIT.",
+  "dashboardTitle": "Tableau de bord en direct",
+  "dashboardSubtitle": "Plus de clarté à chaque trajet.",
+  "settings": "Réglages",
+  "backToDashboard": "Retour au tableau de bord",
+  "digital": "Numérique",
+  "analog": "Analogique",
+  "hud": "HUD",
+  "displayMode": "Mode d’affichage",
+  "currentSpeed": "VITESSE ACTUELLE",
+  "speedUnit": "Unité de vitesse",
+  "unitKilometers": "km/h",
+  "unitMiles": "mi/h",
+  "unitMeters": "m/s",
+  "unitKnots": "nd",
+  "unitKilometersFull": "Kilomètres par heure",
+  "unitMilesFull": "Miles par heure",
+  "unitMetersFull": "Mètres par seconde",
+  "unitKnotsFull": "Nœuds",
+  "kilometers": "km",
+  "miles": "mi",
+  "nauticalMiles": "M",
+  "meters": "m",
+  "gpsStandby": "GPS en veille",
+  "gpsSearching": "Recherche du signal GPS",
+  "gpsLive": "GPS connecté",
+  "gpsPaused": "GPS en pause",
+  "gpsUnavailable": "GPS indisponible",
+  "accuracyValue": "Précision de ±{value} m",
+  "@accuracyValue": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "speedSemantics": "Vitesse actuelle : {value} {unit}",
+  "@speedSemantics": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      },
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "startPrompt": "À vous de partir",
+  "startHint": "Démarrez un trajet pour voir votre vitesse GPS.",
+  "searchingHint": "Un ciel dégagé facilite la réception GPS.",
+  "pausedHint": "Votre trajet est en pause. Reprenez quand vous le souhaitez.",
+  "trackingHint": "Le GPS est actif. Utilisez les commandes du trajet ou la notification pour arrêter.",
+  "thisTrip": "Ce trajet",
+  "sessionOnly": "Trajet local · enregistré à la fin",
+  "tripDistance": "DISTANCE",
+  "averageSpeed": "VITESSE MOYENNE",
+  "topSpeed": "VITESSE MAXIMALE",
+  "tripDuration": "DURÉE",
+  "movingAverage": "Moyenne en mouvement",
+  "movingTime": "Temps en mouvement",
+  "altitude": "Altitude",
+  "heading": "Cap",
+  "unavailableValue": "—",
+  "durationValue": "{hours}:{minutes}:{seconds}",
+  "@durationValue": {
+    "placeholders": {
+      "hours": {
+        "type": "String"
+      },
+      "minutes": {
+        "type": "String"
+      },
+      "seconds": {
+        "type": "String"
+      }
+    }
+  },
+  "headingValue": "{value}°",
+  "@headingValue": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "measurementValue": "{value} {unit}",
+  "@measurementValue": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      },
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "startTrip": "Démarrer un trajet",
+  "pauseTrip": "Mettre en pause",
+  "resumeTrip": "Reprendre le trajet",
+  "startingTrip": "Connexion…",
+  "resetTrip": "Réinitialiser le trajet",
+  "resetTitle": "Repartir de zéro ?",
+  "resetMessage": "Le suivi s’arrête et le trajet actuel est abandonné. Les trajets précédents, le compteur kilométrique total et les totaux par période sont conservés.",
+  "cancel": "Annuler",
+  "reset": "Réinitialiser",
+  "privacyFooter": "Hors ligne. Sans compte. Sans envoi de données.",
+  "safeDriving": "Réglez l’application avant de partir. Gardez les yeux sur la route.",
+  "speedLimit": "Limite de vitesse",
+  "limitValue": "LIMITE {value} {unit}",
+  "@limitValue": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      },
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "overLimit": "Limite de vitesse dépassée",
+  "overLimitSemantics": "Attention : vous dépassez la limite choisie.",
+  "mirrorHud": "Inverser le HUD",
+  "mirrorHudSubtitle": "Inversez l’affichage pour le reflet sur le pare-brise.",
+  "hudHint": "Une lecture claire en un coup d’œil. Placez votre téléphone en sécurité avant de partir.",
+  "displaySettings": "Votre affichage",
+  "displaySettingsDescription": "Adaptez le tableau de bord à vos préférences.",
+  "simpleView": "Vue simplifiée",
+  "simpleViewSubtitle": "Concentrez-vous sur votre vitesse actuelle.",
+  "darkMode": "Apparence sombre",
+  "darkModeSubtitle": "Un affichage plus doux pour les trajets de nuit.",
+  "warningSettings": "Alertes de vitesse",
+  "warningSettingsDescription": "Choisissez votre limite et vos alertes.",
+  "enableWarning": "Activer l’alerte de vitesse",
+  "enableWarningSubtitle": "Avertir au-delà de la limite choisie et de la marge.",
+  "warningScope": "Le son, la vibration et la voix sont facultatifs. Les alertes sont une aide ; restez attentif à la route. Les réglages sonores et le matériel peuvent affecter les alertes sonores et tactiles.",
+  "decreaseLimit": "Réduire la limite",
+  "increaseLimit": "Augmenter la limite",
+  "privacySettings": "La confidentialité par conception",
+  "privacySettingsDescription": "Votre position sert au compteur de cet appareil. Aucune donnée de position ou de trajet n’est envoyée.",
+  "foregroundDisclosure": "Le GPS démarre uniquement quand vous touchez Démarrer un trajet. Si le suivi en arrière-plan est activé, une notification visible maintient le suivi hors de l’application et propose un bouton Arrêter. Les trajets et les itinéraires précis facultatifs restent sur cet appareil jusqu’à leur suppression ou leur exportation. Sans compte ni envoi automatique.",
+  "precisionDisclaimer": "Les mesures GPS varient selon le signal. Cette application est une aide et ne remplace pas le compteur du véhicule.",
+  "permissionEyebrow": "PRÉPARONS VOTRE DÉPART",
+  "permissionTitle": "Votre trajet.\nVotre vie privée.",
+  "permissionDescription": "Une lecture claire de votre vitesse commence par le GPS de votre téléphone.",
+  "permissionLocationTitle": "La position, pour une raison précise",
+  "permissionLocationBody": "La position précise permet de lire la vitesse du GPS et de mesurer la distance parcourue.",
+  "permissionOfflineTitle": "Toujours sur votre appareil",
+  "permissionOfflineBody": "Sans compte, sans envoi automatique et sans connexion internet. Les trajets et les itinéraires précis facultatifs sont enregistrés sur cet appareil. Désactivez les itinéraires, exportez une sauvegarde locale ou supprimez vos données dans Réglages.",
+  "permissionControlTitle": "Vous gardez le contrôle",
+  "permissionControlBody": "Le GPS démarre quand vous touchez Démarrer un trajet. Une notification visible peut maintenir le suivi quand l’application est réduite et propose un bouton Arrêter. Réglez le suivi en arrière-plan, les itinéraires et les alertes dans Réglages.",
+  "permissionContinue": "Accéder au tableau de bord",
+  "permissionRequestHint": "L’autorisation de localisation sera demandée au premier trajet.",
+  "failurePermissionDenied": "L’autorisation de localisation est nécessaire pour afficher la vitesse GPS. Touchez Démarrer un trajet pour réessayer.",
+  "failurePermissionDeniedForever": "L’accès à la position est désactivé pour cette application. Activez la position précise dans ses paramètres pour démarrer un trajet.",
+  "failureLocationDisabled": "La localisation de l’appareil est désactivée. Activez-la pour obtenir votre vitesse GPS.",
+  "failureLocationUnavailable": "Aucune mesure GPS fiable pour le moment. Réessayez avec une vue dégagée du ciel.",
+  "failureUnsupported": "Le suivi GPS n’est pas pris en charge sur cette plateforme. Le tableau de bord et les réglages d’affichage restent consultables.",
+  "failureStorage": "Impossible de lire ou d’enregistrer vos données locales. Réessayez.",
+  "failureUnexpected": "Un problème a interrompu le trajet. Réessayez.",
+  "openAppSettings": "Ouvrir les paramètres de l’application",
+  "openLocationSettings": "Activer la localisation",
+  "dismissError": "Fermer le message",
+  "preferencesLoadFailure": "Impossible de charger vos réglages enregistrés.",
+  "retry": "Réessayer",
+  "continueWithDefaults": "Continuer avec les réglages par défaut",
+  "loadingPreferences": "Préparation de votre tableau de bord…",
+  "startupTitle": "Un trajet plus clair commence ici.",
+  "keepAwake": "Garder l’écran allumé",
+  "keepAwakeDescription": "Empêchez la veille pendant le suivi lorsque le tableau de bord est visible.",
+  "brightness": "Luminosité de l’écran",
+  "systemBrightness": "Utiliser la luminosité du système",
+  "brightnessDescription": "Seule cette application est modifiée. La luminosité du système revient en la quittant.",
+  "accentColor": "Couleur de l’instrument",
+  "colorLime": "Vert citron",
+  "colorBlue": "Bleu",
+  "colorCyan": "Cyan",
+  "colorAmber": "Ambre",
+  "colorRose": "Rose",
+  "colorLavender": "Lavande",
+  "colorMint": "Menthe",
+  "colorOrange": "Orange",
+  "colorWhite": "Blanc",
+  "colorPink": "Rose vif",
+  "leftHanded": "Disposition pour gaucher",
+  "leftHandedDescription": "Placez l’instrument à gauche dans les vues larges.",
+  "gaugeRange": "Plage complète du cadran",
+  "nightHud": "HUD à contraste maximal",
+  "nightHudDescription": "Utilisez un HUD noir pur avec une lecture lumineuse pour la nuit.",
+  "hudContent": "Informations du HUD",
+  "hudTime": "Afficher l’heure",
+  "hudCompass": "Afficher la boussole",
+  "hudTrip": "Afficher la distance du trajet",
+  "soundAlert": "Alerte sonore",
+  "vibrationAlert": "Alerte par vibration",
+  "voiceAlert": "Alerte vocale",
+  "alertVolume": "Volume des alertes",
+  "alertOffset": "Marge d’alerte au-dessus de la limite",
+  "alertOffsetDescription": "L’alerte commence à votre limite augmentée de cette marge.",
+  "calibration": "Étalonnage de la distance",
+  "calibrationDescription": "Ajustez les futures mesures selon un compteur kilométrique de référence. La vitesse GPS et les distances déjà enregistrées restent inchangées.",
+  "language": "Langue",
+  "systemLanguage": "Langue du système",
+  "languageEnglish": "English",
+  "languageSpanish": "Español",
+  "languageFrench": "Français",
+  "languageGerman": "Deutsch",
+  "languageArabic": "العربية",
+  "trackingSettings": "Suivi et enregistrement",
+  "autoRecordTrips": "Enregistrer automatiquement les trajets",
+  "autoRecordTripsDescription": "Enregistrez chaque session que vous démarrez explicitement. Terminez le trajet pour l’ajouter à l’historique. Le GPS ne démarre jamais automatiquement.",
+  "recordRoute": "Enregistrer l’itinéraire précis",
+  "recordRouteDescription": "Conservez localement les coordonnées de départ et d’arrivée et les points GPS acceptés pour la carte, la relecture et l’export GPX. Désactivez pour ne garder que statistiques et vitesses. Les itinéraires existants restent jusqu’à leur suppression.",
+  "backgroundTracking": "Continuer en arrière-plan",
+  "backgroundTrackingDescription": "Après Démarrer un trajet, une notification visible du service de localisation maintient le GPS actif hors de l’application. Utilisez Arrêter pour terminer. Aucune autorisation de localisation en arrière-plan n’est demandée.",
+  "economyGps": "GPS économe en batterie",
+  "economyGpsDescription": "Demande une position environ toutes les 3 secondes au lieu d’une seconde. La précision et la réactivité dépendent de votre appareil.",
+  "overlaySettings": "Compteur flottant",
+  "overlayDescription": "Affichez la vitesse sur les autres applications pendant un trajet. Faites glisser pour déplacer et utilisez la poignée d’angle pour redimensionner.",
+  "enableOverlay": "Afficher le compteur flottant",
+  "disableOverlay": "Masquer le compteur flottant",
+  "overlayPermissionTitle": "Autoriser le compteur flottant ?",
+  "overlayPermissionBody": "Android demande une autorisation pour afficher la vitesse au-dessus de la navigation et des autres applications. La fenêtre n’affiche que la vitesse et les alertes de cette application ; elle ne lit pas le contenu des autres applications. Masquez-la ici ou arrêtez le trajet dans la notification.",
+  "openOverlaySettings": "Autoriser l’affichage sur les autres applications",
+  "continueAction": "Continuer",
+  "backupSettings": "Sauvegarde locale et données",
+  "backupDescription": "Les sauvegardes comprennent réglages, poids facultatif, trajets, parcours précis, carburant et frais du véhicule. Partagez-les uniquement avec des personnes et applications de confiance. Aucun envoi automatique.",
+  "exportBackup": "Exporter une sauvegarde locale",
+  "restoreBackup": "Restaurer une sauvegarde locale",
+  "restoreBackupTitle": "Restaurer une sauvegarde ?",
+  "restoreBackupMessage": "Une sauvegarde valide remplace trajets, compteur, carburant, frais et réglages sur cet appareil. Exportez une sauvegarde pour conserver vos données. Le suivi s’arrête avant la restauration.",
+  "deleteAllData": "Supprimer toutes les données locales",
+  "deleteAllDataTitle": "Supprimer toutes les données locales ?",
+  "deleteAllDataMessage": "Le suivi s’arrête et les trajets, parcours précis, compteur, carburant, frais et réglages de cet appareil sont supprimés. Les fichiers déjà exportés sont conservés.",
+  "deleteAction": "Supprimer",
+  "resetPreferences": "Réinitialiser les réglages",
+  "resetPreferencesTitle": "Réinitialiser les réglages ?",
+  "resetPreferencesMessage": "Rétablit les réglages d’affichage, d’alerte et d’enregistrement par défaut. Les trajets enregistrés et le compteur kilométrique sont conservés.",
+  "odometer": "Compteur kilométrique total",
+  "todayDistance": "Aujourd’hui",
+  "weekDistance": "Cette semaine",
+  "monthDistance": "Ce mois-ci",
+  "compass": "Boussole de l’appareil",
+  "compassUnavailable": "Boussole indisponible sur cet appareil",
+  "courseOverGround": "Route suivie au sol par GPS",
+  "tripHistory": "Historique des trajets",
+  "finishTrip": "Terminer et enregistrer le trajet",
+  "platformUnsupported": "Cet appareil ne prend pas en charge cette fonction.",
+  "invalidBackup": "La sauvegarde sélectionnée est invalide ou incompatible.",
+  "storageMessage": "Impossible de lire ou d’enregistrer vos données locales. Réessayez.",
+  "warningSpoken": "Vous dépassez la limite de vitesse choisie.",
+  "notificationTitle": "Suivi du compteur de vitesse",
+  "notificationStop": "Arrêter",
+  "nativePaused": "Suivi en pause",
+  "nativeTracking": "Suivi actif",
+  "overlayPermissionMessage": "Autorisez le compteur à s’afficher sur les autres applications, puis revenez activer la fenêtre flottante.",
+  "backupRestored": "Votre sauvegarde a été restaurée.",
+  "sessionRecordingOff": "Enregistrement désactivé · compteur conservé sur cet appareil",
+  "timeLabel": "Heure",
+  "tripHistoryEmpty": "Vos trajets apparaîtront ici",
+  "tripHistoryEmptyDescription": "Démarrez un trajet sur le tableau de bord, puis terminez-le pour conserver les statistiques et l’itinéraire facultatif sur cet appareil.",
+  "tripDetail": "Détails du trajet",
+  "tripNotFound": "Ce trajet n’est plus disponible.",
+  "tripInProgress": "En cours",
+  "tripFinished": "Terminé",
+  "deleteTrip": "Supprimer le trajet",
+  "deleteTripTitle": "Supprimer ce trajet ?",
+  "deleteTripMessage": "Les statistiques et l’itinéraire enregistré sont définitivement supprimés de cet appareil. Le compteur total et les totaux par période sont conservés. Les fichiers exportés ne sont pas supprimés.",
+  "tripRoute": "Itinéraire enregistré",
+  "tripRouteDescription": "Carte hors ligne avec contours terrestres simplifiés. Pincez pour zoomer et faites glisser pour explorer. Les rues ne sont pas incluses. Les coupures indiquent des pauses ou des périodes sans itinéraire enregistré.",
+  "tripNoRoute": "Aucun itinéraire enregistré. Les vitesses et les statistiques restent disponibles.",
+  "tripStartPoint": "Premier point enregistré",
+  "tripEndPoint": "Dernier point enregistré",
+  "tripSpeedGraph": "Vitesse au fil du temps",
+  "tripSpeedGraphDescription": "Les vitesses sont représentées selon le temps écoulé du trajet. Les interruptions séparent les pauses et les périodes sans GPS.",
+  "tripNoSamples": "Aucune mesure GPS acceptée n’a été enregistrée.",
+  "tripReplay": "Relecture de l’itinéraire",
+  "tripReplayPlay": "Lire l’itinéraire",
+  "tripReplayPause": "Mettre la relecture en pause",
+  "tripReplayProgress": "Position de lecture",
+  "tripReplayDescription": "La relecture suit les mesures enregistrées. Les segments en pointillés et les repères d’alerte indiquent les vitesses au-dessus de la limite choisie pendant l’enregistrement.",
+  "tripOverLimitLegend": "Repères d’alerte : limite choisie dépassée",
+  "tripExportGpx": "Partager l’itinéraire GPX",
+  "tripExportCsv": "Partager les mesures CSV",
+  "tripShareSummary": "Partager le résumé du trajet",
+  "tripExportDisclosure": "Les exports peuvent inclure des coordonnées précises enregistrées. Partagez-les uniquement avec des personnes et applications de confiance.",
+  "tripChartSemantics": "Graphique de la vitesse enregistrée",
+  "tripRouteSemantics": "Itinéraire enregistré avec repères de départ, d’arrivée et de lecture",
+  "tripSummaryText": "Trajet du {date}\nDistance : {distance}\nDurée : {duration}\nMoyenne : {average}\nVitesse maximale : {maximum}",
+  "@tripSummaryText": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "distance": {
+        "type": "String"
+      },
+      "duration": {
+        "type": "String"
+      },
+      "average": {
+        "type": "String"
+      },
+      "maximum": {
+        "type": "String"
+      }
+    }
+  },
+  "tripSamplePosition": "Mesure {position} sur {total}",
+  "@tripSamplePosition": {
+    "placeholders": {
+      "position": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "tripSampleTime": "Enregistré à {time}",
+  "@tripSampleTime": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "tripBasemapAttribution": "Contours terrestres : Natural Earth (domaine public). Fond de carte mondial simplifié, sans rues.",
+  "activitySettings": "Activité",
+  "activityDescription": "Chaque activité mémorise son unité, son cadran et sa plage.",
+  "activityMode": "Mode d’activité",
+  "activityCar": "Voiture",
+  "activityCycling": "Vélo",
+  "activityWalking": "Marche",
+  "activityRunning": "Course",
+  "activityBoating": "Navigation",
+  "activityLocked": "Terminez ou réinitialisez le trajet avant de changer d’activité ou de poids.",
+  "bodyWeight": "Poids corporel",
+  "bodyWeightDescription": "Conservé localement pour estimer les calories. Inclus dans les sauvegardes locales.",
+  "bodyWeightEnabled": "Estimer les calories",
+  "bodyWeightEnabledDescription": "Ajoutez votre poids pour estimer les calories à vélo, à pied et en course.",
+  "kilograms": "kg",
+  "estimatedCalories": "Calories estimées",
+  "kilocalories": "kcal",
+  "calorieEstimateDescription": "Estimation approximative de l’énergie totale à effort modéré, selon le temps en mouvement et le poids. La dépense réelle varie.",
+  "fuelCosts": "Carburant et frais du véhicule",
+  "fuelLogEmpty": "Aucun plein ni frais enregistré",
+  "fuelLogDescription": "Enregistrez le carburant et la distance parcourue avec celui-ci. Pour l’entretien seul, laissez carburant et distance à zéro. Les trajets conservés servent de carnet kilométrique. Les devises restent séparées, sans conversion.",
+  "fuelAddEntry": "Ajouter une entrée",
+  "fuelEditEntry": "Modifier l’entrée",
+  "fuelDeleteEntry": "Supprimer l’entrée",
+  "fuelDeleteConfirmation": "Supprimer cette entrée de carburant et de frais ?",
+  "fuelEntryDate": "Date",
+  "fuelDistance": "Distance parcourue",
+  "fuelVolume": "Carburant utilisé",
+  "fuelVolumeUnit": "Unité de carburant",
+  "fuelDistanceUnit": "Unité de distance",
+  "fuelLiters": "L",
+  "fuelUsGallons": "gal US",
+  "fuelCost": "Coût du carburant",
+  "fuelOtherCost": "Autres frais du véhicule",
+  "fuelCurrency": "Code devise",
+  "fuelCurrencyHint": "Trois lettres, par exemple USD ou AED",
+  "fuelNote": "Note (facultative)",
+  "fuelSaveEntry": "Enregistrer",
+  "fuelValidation": "Saisissez des nombres valides. Le carburant et la distance doivent être positifs, ou tous deux nuls pour un entretien avec d’autres frais. Les coûts doivent être positifs ou nuls. Utilisez un code devise de trois lettres et une note de 500 caractères maximum.",
+  "fuelSaved": "Entrée enregistrée",
+  "fuelDeleted": "Entrée supprimée",
+  "fuelTotalCost": "Frais totaux du véhicule",
+  "fuelConsumption": "Consommation de carburant",
+  "fuelLoggedDistance": "Distance enregistrée",
+  "fuelCostPerDistance": "Coût par distance enregistrée",
+  "fuelNoConsumption": "Ajoutez carburant et distance pour calculer la consommation",
+  "fuelLitersPer100Kilometers": "L/100 km",
+  "fuelMilesPerUsGallon": "mi/gal US",
+  "fuelMileageLog": "Carnet kilométrique",
+  "fuelAmountPerDistance": "{amount}/{unit}",
+  "@fuelAmountPerDistance": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      },
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "focusedDisplay": "Affichage épuré",
+  "exitFocusedDisplay": "Quitter l’affichage épuré",
+  "settingsSections": "Sections des réglages",
+  "allSettings": "Tous les réglages",
+  "allTrips": "Tous les trajets",
+  "activeTrips": "En cours",
+  "finishedTrips": "Trajets terminés",
+  "filterDates": "Filtrer les dates",
+  "clearFilters": "Effacer les filtres",
+  "previousPage": "Page précédente",
+  "nextPage": "Page suivante",
+  "historyPage": "Page {page}",
+  "historyNoMatches": "Aucun trajet ne correspond à ces filtres.",
+  "loadRegionalMap": "Charger une carte régionale",
+  "removeRegionalMap": "Supprimer la carte régionale",
+  "regionalMapDisclosure": "Lignes GeoJSON locales uniquement (5 Mo maximum). Utilisez des données autorisées avec leur source. La couche reste en mémoire pendant l’ouverture de cet écran ; elle n’est ni enregistrée ni sauvegardée.",
+  "regionalMapFailure": "Impossible de charger la carte régionale. Choisissez une FeatureCollection GeoJSON valide avec une géométrie LineString ou MultiLineString.",
+  "regionalMapSource": "Carte régionale : {source}",
+  "@historyPage": {
+    "placeholders": {
+      "page": {
+        "type": "String"
+      }
+    }
+  },
+  "@regionalMapSource": {
+    "placeholders": {
+      "source": {
+        "type": "String"
+      }
+    }
+  }
+}

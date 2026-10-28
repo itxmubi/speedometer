@@ -1,0 +1,18 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  language:
+    strict-casts: true
+    strict-inference: true
+    strict-raw-types: true
+  exclude:
+    - lib/generated/**
+    # drift_dev emits raw TableInfo in historical schema fixtures. Keep those
+    # generated files intact; migration tests still compile and exercise them.
+    - test/core/database/generated/**
+
+linter:
+  rules:
+    avoid_print: true
+    unawaited_futures: true
+    prefer_single_quotes: true

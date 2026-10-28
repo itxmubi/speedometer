@@ -1,0 +1,36 @@
+/// Layout and instrument dimensions, kept independent of feature widgets.
+abstract final class AppMetrics {
+  static const touchTarget = 48.0;
+  static const actionHeight = 60.0;
+  static const contentMaxWidth = 1040.0;
+  static const compactMaxWidth = 640.0;
+  static const wideBreakpoint = 840.0;
+  static const largeTextThreshold = 1.5;
+  static const gaugeHeight = 280.0;
+  static const analogAspectRatio = 1.35;
+  static const heroIconSize = 32.0;
+  static const introIconSize = 52.0;
+  static const smallIconSize = 18.0;
+  static const gaugeStroke = 10.0;
+  static const gaugeTickStroke = 2.0;
+  static const gaugeNeedleStroke = 3.0;
+  static const gaugeCenterRadius = 7.0;
+  static const dialRadiusFactor = 0.42;
+  static const tickOuterFactor = 0.88;
+  static const tickMajorFactor = 0.80;
+  static const tickMinorFactor = 0.84;
+  static const tickLabelFactor = 0.65;
+  static const needleRadiusFactor = 0.69;
+  static const dialCenterYFactor = 0.56;
+  static const dialSweepFraction = 0.75;
+  static const dialStartFraction = 0.375;
+  static const dialTickCount = 40;
+  static const dialMajorInterval = 5;
+  static const kilometersDialRange = 200.0;
+  static const milesDialRange = 140.0;
+  static const metersDialRange = 60.0;
+  static const knotsDialRange = 100.0;
+  static const speedLimitStep = 5.0;
+  static const minimumSpeedLimit = 5.0;
+  static const maximumSpeedLimit = 400.0;
+}

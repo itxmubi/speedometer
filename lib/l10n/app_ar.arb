@@ -1,0 +1,422 @@
+{
+  "@@locale": "ar",
+  "appTitle": "عداد السرعة",
+  "appTagline": "دقيق. خاص. مجاني.",
+  "dashboardTitle": "لوحة القيادة المباشرة",
+  "dashboardSubtitle": "وضوح أكبر في كل رحلة.",
+  "settings": "الإعدادات",
+  "backToDashboard": "العودة إلى لوحة القيادة",
+  "digital": "رقمي",
+  "analog": "تناظري",
+  "hud": "العرض على الزجاج",
+  "displayMode": "وضع العرض",
+  "currentSpeed": "السرعة الحالية",
+  "speedUnit": "وحدة السرعة",
+  "unitKilometers": "كم/س",
+  "unitMiles": "ميل/س",
+  "unitMeters": "م/ث",
+  "unitKnots": "عقدة",
+  "unitKilometersFull": "كيلومتر في الساعة",
+  "unitMilesFull": "ميل في الساعة",
+  "unitMetersFull": "متر في الثانية",
+  "unitKnotsFull": "عقدة",
+  "kilometers": "كم",
+  "miles": "ميل",
+  "nauticalMiles": "ميل بحري",
+  "meters": "م",
+  "gpsStandby": "GPS في وضع الاستعداد",
+  "gpsSearching": "جارٍ البحث عن إشارة GPS",
+  "gpsLive": "GPS متصل",
+  "gpsPaused": "GPS متوقف مؤقتًا",
+  "gpsUnavailable": "GPS غير متاح",
+  "accuracyValue": "الدقة ±{value} م",
+  "@accuracyValue": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "speedSemantics": "السرعة الحالية {value} {unit}",
+  "@speedSemantics": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      },
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "startPrompt": "جاهز عندما تكون مستعدًا",
+  "startHint": "ابدأ رحلة لعرض سرعتك المباشرة عبر GPS.",
+  "searchingHint": "تساعد رؤية السماء بوضوح جهاز GPS على تحديد موقعك.",
+  "pausedHint": "رحلتك متوقفة مؤقتًا. تابع عندما تكون مستعدًا.",
+  "trackingHint": "GPS نشط. استخدم أدوات الرحلة أو الإشعار لإيقاف التتبع.",
+  "thisTrip": "هذه الرحلة",
+  "sessionOnly": "رحلة محلية · تُحفظ عند الانتهاء",
+  "tripDistance": "المسافة",
+  "averageSpeed": "متوسط السرعة",
+  "topSpeed": "السرعة القصوى",
+  "tripDuration": "المدة",
+  "movingAverage": "المتوسط أثناء الحركة",
+  "movingTime": "وقت الحركة",
+  "altitude": "الارتفاع",
+  "heading": "الاتجاه",
+  "unavailableValue": "—",
+  "durationValue": "{hours}:{minutes}:{seconds}",
+  "@durationValue": {
+    "placeholders": {
+      "hours": {
+        "type": "String"
+      },
+      "minutes": {
+        "type": "String"
+      },
+      "seconds": {
+        "type": "String"
+      }
+    }
+  },
+  "headingValue": "{value}°",
+  "@headingValue": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "measurementValue": "{value} {unit}",
+  "@measurementValue": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      },
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "startTrip": "بدء رحلة",
+  "pauseTrip": "إيقاف الرحلة مؤقتًا",
+  "resumeTrip": "متابعة الرحلة",
+  "startingTrip": "جارٍ الاتصال…",
+  "resetTrip": "إعادة ضبط الرحلة",
+  "resetTitle": "هل تريد البدء من جديد؟",
+  "resetMessage": "سيؤدي هذا إلى إيقاف التتبع وتجاهل الرحلة الحالية. تبقى الرحلات المحفوظة السابقة وعداد المسافة الكلي وإجماليات المسافة للفترات الزمنية.",
+  "cancel": "إلغاء",
+  "reset": "إعادة ضبط",
+  "privacyFooter": "يعمل دون إنترنت. دون حساب. دون رفع بيانات.",
+  "safeDriving": "اضبط الإعدادات قبل التحرك. أبقِ انتباهك على الطريق.",
+  "speedLimit": "حد السرعة",
+  "limitValue": "الحد {value} {unit}",
+  "@limitValue": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      },
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "overLimit": "تجاوزت حد السرعة المحدد",
+  "overLimitSemantics": "تحذير: تجاوزت حد السرعة الذي حددته.",
+  "mirrorHud": "عكس العرض على الزجاج",
+  "mirrorHudSubtitle": "اعكس القراءة لتنعكس على الزجاج الأمامي.",
+  "hudHint": "عرض واضح وسريع القراءة. ضع هاتفك بأمان قبل التحرك.",
+  "displaySettings": "شاشتك",
+  "displaySettingsDescription": "خصص لوحة القيادة بما يناسبك.",
+  "simpleView": "عرض مبسط",
+  "simpleViewSubtitle": "ركز على سرعتك الحالية.",
+  "darkMode": "المظهر الداكن",
+  "darkModeSubtitle": "عرض أهدأ لرحلات الليل.",
+  "warningSettings": "تحذيرات السرعة",
+  "warningSettingsDescription": "اختر حدًا شخصيًا والتحذيرات التي تفضلها.",
+  "enableWarning": "تفعيل تحذير السرعة",
+  "enableWarningSubtitle": "عرض تحذير عند تجاوز الحد المحدد وهامشه.",
+  "warningScope": "الصوت والاهتزاز والنطق خيارات اختيارية. التحذير وسيلة مساعدة؛ أبقِ انتباهك على الطريق. قد تؤثر إعدادات الصوت ومكونات الجهاز في التحذيرات الصوتية والاهتزازية.",
+  "decreaseLimit": "خفض حد السرعة",
+  "increaseLimit": "زيادة حد السرعة",
+  "privacySettings": "الخصوصية أساس التصميم",
+  "privacySettingsDescription": "يُستخدم موقعك لتشغيل عداد السرعة على هذا الجهاز. لا تُرفع بيانات الموقع أو الرحلات.",
+  "foregroundDisclosure": "يبدأ GPS فقط عند الضغط على بدء رحلة. عند تفعيل التتبع في الخلفية، يواصل إشعار ظاهر التتبع بعد مغادرة التطبيق ويوفر زر إيقاف. تبقى الرحلات والمسارات الدقيقة الاختيارية على هذا الجهاز حتى تحذفها أو تصدر ملفًا بنفسك. دون حساب أو رفع تلقائي.",
+  "precisionDisclaimer": "قد تختلف قراءات GPS حسب ظروف الإشارة. هذا التطبيق وسيلة مساعدة ولا يحل محل عداد سرعة مركبتك.",
+  "permissionEyebrow": "لنستعد للانطلاق",
+  "permissionTitle": "رحلتك.\nخصوصيتك.",
+  "permissionDescription": "تبدأ قراءة سرعتك بوضوح باستخدام GPS في هاتفك.",
+  "permissionLocationTitle": "الموقع لغرض محدد",
+  "permissionLocationBody": "يتيح الموقع الدقيق قراءة السرعة التي يوفرها GPS وقياس مسافة رحلتك.",
+  "permissionOfflineTitle": "دائمًا على جهازك",
+  "permissionOfflineBody": "دون حساب أو رفع تلقائي أو حاجة إلى الإنترنت. تُحفظ الرحلات والمسارات الدقيقة الاختيارية على هذا الجهاز. يمكنك تعطيل حفظ المسارات أو تصدير نسخة احتياطية محلية أو حذف بياناتك من الإعدادات.",
+  "permissionControlTitle": "أنت المتحكم",
+  "permissionControlBody": "يبدأ GPS عند الضغط على بدء رحلة. يمكن لإشعار ظاهر مواصلة التتبع عند تصغير التطبيق ويتضمن زر إيقاف. تحكم في التتبع بالخلفية وتسجيل المسار والتحذيرات من الإعدادات.",
+  "permissionContinue": "المتابعة إلى لوحة القيادة",
+  "permissionRequestHint": "سنطلب إذن الموقع عند بدء رحلتك الأولى.",
+  "failurePermissionDenied": "يلزم إذن الموقع لعرض سرعة GPS. اضغط على بدء رحلة للمحاولة مجددًا.",
+  "failurePermissionDeniedForever": "الوصول إلى الموقع معطل لهذا التطبيق. فعّل الموقع الدقيق في إعدادات التطبيق لبدء رحلة.",
+  "failureLocationDisabled": "خدمة الموقع على جهازك معطلة. شغلها لعرض سرعتك عبر GPS.",
+  "failureLocationUnavailable": "لا تتوفر قراءة GPS موثوقة بعد. حاول مجددًا في مكان تظهر فيه السماء بوضوح.",
+  "failureUnsupported": "تتبع GPS غير مدعوم على هذه المنصة. يمكنك معاينة لوحة القيادة وإعدادات العرض.",
+  "failureStorage": "تعذرت قراءة بياناتك المحلية أو حفظها. يرجى المحاولة مجددًا.",
+  "failureUnexpected": "حدث ما أدى إلى مقاطعة الرحلة. يرجى المحاولة مجددًا.",
+  "openAppSettings": "فتح إعدادات التطبيق",
+  "openLocationSettings": "تشغيل الموقع",
+  "dismissError": "إغلاق الرسالة",
+  "preferencesLoadFailure": "تعذر تحميل إعداداتك المحفوظة.",
+  "retry": "المحاولة مجددًا",
+  "continueWithDefaults": "المتابعة بالإعدادات الافتراضية",
+  "loadingPreferences": "جارٍ تجهيز لوحة القيادة…",
+  "startupTitle": "تبدأ رحلة أوضح من هنا.",
+  "keepAwake": "إبقاء الشاشة مضاءة",
+  "keepAwakeDescription": "منع سكون الشاشة أثناء التتبع ولوحة القيادة ظاهرة.",
+  "brightness": "سطوع الشاشة",
+  "systemBrightness": "استخدام سطوع النظام",
+  "brightnessDescription": "يؤثر في هذا التطبيق فقط. يعود سطوع النظام عند مغادرته.",
+  "accentColor": "لون العداد",
+  "colorLime": "ليموني",
+  "colorBlue": "أزرق",
+  "colorCyan": "سماوي",
+  "colorAmber": "كهرماني",
+  "colorRose": "وردي محمر",
+  "colorLavender": "خزامي",
+  "colorMint": "نعناعي",
+  "colorOrange": "برتقالي",
+  "colorWhite": "أبيض",
+  "colorPink": "وردي",
+  "leftHanded": "تخطيط لليد اليسرى",
+  "leftHandedDescription": "ضع العداد على اليسار في التخطيطات الواسعة.",
+  "gaugeRange": "النطاق الكامل للعداد",
+  "nightHud": "عرض زجاجي بأقصى تباين",
+  "nightHudDescription": "استخدم خلفية سوداء تمامًا مع قراءة ساطعة للقيادة الليلية.",
+  "hudContent": "معلومات العرض على الزجاج",
+  "hudTime": "إظهار الوقت",
+  "hudCompass": "إظهار البوصلة",
+  "hudTrip": "إظهار مسافة الرحلة",
+  "soundAlert": "تحذير صوتي",
+  "vibrationAlert": "تحذير بالاهتزاز",
+  "voiceAlert": "تحذير منطوق",
+  "alertVolume": "مستوى صوت التحذير",
+  "alertOffset": "هامش التحذير فوق الحد",
+  "alertOffsetDescription": "يبدأ التحذير عند حدك المحدد مضافًا إليه هذا الهامش.",
+  "calibration": "معايرة المسافة",
+  "calibrationDescription": "اضبط قياسات المسافة المستقبلية لتطابق عداد مسافة مرجعيًا. تبقى سرعة GPS والمسافات المسجلة سابقًا دون تغيير.",
+  "language": "اللغة",
+  "systemLanguage": "لغة النظام",
+  "languageEnglish": "English",
+  "languageSpanish": "Español",
+  "languageFrench": "Français",
+  "languageGerman": "Deutsch",
+  "languageArabic": "العربية",
+  "trackingSettings": "التتبع والتسجيل",
+  "autoRecordTrips": "حفظ الرحلات تلقائيًا",
+  "autoRecordTripsDescription": "احفظ كل جلسة تبدأها بنفسك. أنهِ الرحلة لإضافتها إلى السجل. لا يبدأ GPS تلقائيًا أبدًا.",
+  "recordRoute": "حفظ المسار الدقيق",
+  "recordRouteDescription": "احتفظ بإحداثيات البداية والنهاية ونقاط GPS المقبولة محليًا للخريطة وإعادة العرض وتصدير GPX. عطّل الخيار لحفظ الإحصاءات وعينات السرعة فقط. تبقى المسارات الحالية حتى تحذفها.",
+  "backgroundTracking": "المتابعة عند التصغير",
+  "backgroundTrackingDescription": "بعد الضغط على بدء رحلة، يُبقي إشعار ظاهر لخدمة الموقع GPS نشطًا خارج التطبيق. استخدم زر الإيقاف لإنهاء التسجيل. لا يُطلب إذن الموقع في الخلفية.",
+  "economyGps": "GPS موفر للبطارية",
+  "economyGpsDescription": "اطلب قراءة موقع كل 3 ثوانٍ تقريبًا بدلًا من كل ثانية. تعتمد الدقة وسرعة الاستجابة على جهازك.",
+  "overlaySettings": "عداد السرعة العائم",
+  "overlayDescription": "اعرض السرعة فوق التطبيقات الأخرى أثناء الرحلة. اسحب للتحريك واستخدم مقبض الزاوية لتغيير الحجم.",
+  "enableOverlay": "إظهار عداد السرعة العائم",
+  "disableOverlay": "إخفاء عداد السرعة العائم",
+  "overlayPermissionTitle": "هل تسمح بعداد السرعة العائم؟",
+  "overlayPermissionBody": "يحتاج Android إلى إذن لعرض قراءة السرعة فوق تطبيقات الملاحة والتطبيقات الأخرى. تعرض النافذة سرعة هذا التطبيق وحالة التحذير فقط ولا تقرأ محتوى التطبيقات الأخرى. يمكنك إخفاؤها هنا أو إيقاف الرحلة من الإشعار.",
+  "openOverlaySettings": "السماح بالظهور فوق التطبيقات الأخرى",
+  "continueAction": "متابعة",
+  "backupSettings": "النسخ الاحتياطي المحلي والبيانات",
+  "backupDescription": "تشمل النسخ الاحتياطية الإعدادات والوزن الاختياري والرحلات والمسارات الدقيقة وسجلات الوقود وتكاليف المركبة. شاركها فقط مع جهات وتطبيقات تثق بها. لا تُرفع أي بيانات تلقائيًا.",
+  "exportBackup": "تصدير نسخة احتياطية محلية",
+  "restoreBackup": "استعادة نسخة احتياطية محلية",
+  "restoreBackupTitle": "هل تريد استعادة نسخة احتياطية؟",
+  "restoreBackupMessage": "تستبدل النسخة الصالحة الرحلات وعداد المسافة وسجلات الوقود والتكاليف والإعدادات على هذا الجهاز. صدّر نسخة أولًا للاحتفاظ ببياناتك. يتوقف التتبع قبل الاستعادة.",
+  "deleteAllData": "حذف جميع البيانات المحلية",
+  "deleteAllDataTitle": "هل تريد حذف جميع البيانات المحلية؟",
+  "deleteAllDataMessage": "يتوقف التتبع وتُحذف الرحلات والمسارات الدقيقة وعداد المسافة وسجلات الوقود والتكاليف والإعدادات من هذا الجهاز. لا تُحذف الملفات المصدّرة سابقًا.",
+  "deleteAction": "حذف",
+  "resetPreferences": "إعادة ضبط الإعدادات",
+  "resetPreferencesTitle": "هل تريد إعادة ضبط الإعدادات؟",
+  "resetPreferencesMessage": "استعد إعدادات العرض والتحذير والتسجيل الافتراضية. ستبقى الرحلات المحفوظة وعداد المسافة.",
+  "odometer": "عداد المسافة الكلي",
+  "todayDistance": "اليوم",
+  "weekDistance": "هذا الأسبوع",
+  "monthDistance": "هذا الشهر",
+  "compass": "بوصلة الجهاز",
+  "compassUnavailable": "البوصلة غير متاحة على هذا الجهاز",
+  "courseOverGround": "اتجاه الحركة عبر GPS",
+  "tripHistory": "سجل الرحلات",
+  "finishTrip": "إنهاء الرحلة وحفظها",
+  "platformUnsupported": "هذا الجهاز لا يدعم هذه الميزة.",
+  "invalidBackup": "النسخة الاحتياطية المحددة غير صالحة أو غير متوافقة.",
+  "storageMessage": "تعذرت قراءة بياناتك المحلية أو حفظها. يرجى المحاولة مجددًا.",
+  "warningSpoken": "لقد تجاوزت حد السرعة الذي حددته.",
+  "notificationTitle": "تتبع عداد السرعة",
+  "notificationStop": "إيقاف",
+  "nativePaused": "التتبع متوقف مؤقتًا",
+  "nativeTracking": "التتبع نشط",
+  "overlayPermissionMessage": "اسمح لعداد السرعة بالظهور فوق التطبيقات الأخرى، ثم ارجع وفعّل النافذة العائمة.",
+  "backupRestored": "تمت استعادة نسختك الاحتياطية.",
+  "sessionRecordingOff": "حفظ الرحلات معطل · يبقى عداد المسافة على هذا الجهاز",
+  "timeLabel": "الوقت",
+  "tripHistoryEmpty": "ستظهر رحلاتك هنا",
+  "tripHistoryEmptyDescription": "ابدأ رحلة من لوحة القيادة ثم أنهها لحفظ الإحصاءات والمسار الاختياري على هذا الجهاز.",
+  "tripDetail": "تفاصيل الرحلة",
+  "tripNotFound": "لم تعد هذه الرحلة متاحة.",
+  "tripInProgress": "قيد التنفيذ",
+  "tripFinished": "مكتملة",
+  "deleteTrip": "حذف الرحلة",
+  "deleteTripTitle": "هل تريد حذف هذه الرحلة؟",
+  "deleteTripMessage": "سيؤدي هذا إلى حذف إحصاءات الرحلة ومسارها المحفوظ من هذا الجهاز نهائيًا. يبقى عداد المسافة الكلي وإجماليات المسافة للفترات الزمنية. لن تُحذف الملفات المصدّرة.",
+  "tripRoute": "المسار المسجل",
+  "tripRouteDescription": "خريطة دون إنترنت مع حدود تقريبية لليابسة. استخدم إصبعين للتكبير واسحب للاستكشاف. لا تتضمن شوارع. تشير الفجوات إلى توقفات مؤقتة أو فترات لم يُحفظ فيها المسار.",
+  "tripNoRoute": "لم يُحفظ مسار. لا تزال عينات السرعة والإحصاءات متاحة.",
+  "tripStartPoint": "أول نقطة محفوظة",
+  "tripEndPoint": "آخر نقطة محفوظة",
+  "tripSpeedGraph": "السرعة مع مرور الوقت",
+  "tripSpeedGraphDescription": "تُعرض عينات السرعة مقابل الوقت المنقضي من الرحلة. تفصل الفجوات بين التوقفات المؤقتة وفترات انقطاع GPS.",
+  "tripNoSamples": "لم تُسجل عينات GPS مقبولة.",
+  "tripReplay": "إعادة عرض المسار",
+  "tripReplayPlay": "تشغيل إعادة عرض المسار",
+  "tripReplayPause": "إيقاف إعادة العرض مؤقتًا",
+  "tripReplayProgress": "موضع إعادة العرض",
+  "tripReplayDescription": "تتبع إعادة العرض العينات المحفوظة. تحدد المقاطع المتقطعة وعلامات التحذير العينات التي تجاوزت حد السرعة المحدد أثناء التسجيل.",
+  "tripOverLimitLegend": "علامات التحذير: أعلى من الحد المحدد",
+  "tripExportGpx": "مشاركة المسار بصيغة GPX",
+  "tripExportCsv": "مشاركة العينات بصيغة CSV",
+  "tripShareSummary": "مشاركة ملخص الرحلة",
+  "tripExportDisclosure": "قد تتضمن الملفات المصدرة إحداثيات دقيقة محفوظة. شاركها فقط مع أشخاص وتطبيقات تثق بهم.",
+  "tripChartSemantics": "رسم بياني للسرعة المسجلة",
+  "tripRouteSemantics": "مسار محفوظ مع علامات البداية والنهاية وموضع إعادة العرض",
+  "tripSummaryText": "رحلة بتاريخ {date}\nالمسافة: {distance}\nالمدة: {duration}\nالمتوسط: {average}\nالسرعة القصوى: {maximum}",
+  "@tripSummaryText": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "distance": {
+        "type": "String"
+      },
+      "duration": {
+        "type": "String"
+      },
+      "average": {
+        "type": "String"
+      },
+      "maximum": {
+        "type": "String"
+      }
+    }
+  },
+  "tripSamplePosition": "العينة {position} من {total}",
+  "@tripSamplePosition": {
+    "placeholders": {
+      "position": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "tripSampleTime": "سُجلت في {time}",
+  "@tripSampleTime": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "tripBasemapAttribution": "حدود اليابسة: Natural Earth (ملك عام). خريطة عالمية تقريبية دون شوارع.",
+  "activitySettings": "النشاط",
+  "activityDescription": "يحتفظ كل نشاط بوحدته ونمط عداده ونطاقه.",
+  "activityMode": "وضع النشاط",
+  "activityCar": "سيارة",
+  "activityCycling": "ركوب الدراجة",
+  "activityWalking": "المشي",
+  "activityRunning": "الجري",
+  "activityBoating": "الإبحار",
+  "activityLocked": "أنهِ الرحلة الحالية أو أعد ضبطها قبل تغيير النشاط أو الوزن.",
+  "bodyWeight": "وزن الجسم",
+  "bodyWeightDescription": "يُحفظ محليًا لتقدير تقريبي للسعرات، ويُضمّن في النسخ الاحتياطية المحلية.",
+  "bodyWeightEnabled": "تقدير السعرات الحرارية",
+  "bodyWeightEnabledDescription": "أضف وزنك لتقدير السعرات أثناء ركوب الدراجة والمشي والجري.",
+  "kilograms": "كغ",
+  "estimatedCalories": "السعرات الحرارية المقدّرة",
+  "kilocalories": "سعرة حرارية",
+  "calorieEstimateDescription": "تقدير تقريبي لإجمالي الطاقة عند جهد معتدل استنادًا إلى وقت الحركة والوزن. يختلف الاستهلاك الفعلي.",
+  "fuelCosts": "الوقود وتكاليف المركبة",
+  "fuelLogEmpty": "لا توجد سجلات للوقود أو تكاليف المركبة بعد",
+  "fuelLogDescription": "سجّل الوقود والمسافة التي قطعها. للصيانة فقط، اترك الوقود والمسافة صفرًا. استخدم الرحلات المحفوظة كسجل للمسافات. تُجمع كل عملة على حدة دون تطبيق أسعار صرف.",
+  "fuelAddEntry": "إضافة سجل",
+  "fuelEditEntry": "تعديل السجل",
+  "fuelDeleteEntry": "حذف السجل",
+  "fuelDeleteConfirmation": "هل تريد حذف سجل الوقود والتكاليف هذا؟",
+  "fuelEntryDate": "التاريخ",
+  "fuelDistance": "المسافة المقطوعة",
+  "fuelVolume": "الوقود المستهلك",
+  "fuelVolumeUnit": "وحدة الوقود",
+  "fuelDistanceUnit": "وحدة المسافة",
+  "fuelLiters": "لتر",
+  "fuelUsGallons": "غالون أمريكي",
+  "fuelCost": "تكلفة الوقود",
+  "fuelOtherCost": "تكاليف المركبة الأخرى",
+  "fuelCurrency": "رمز العملة",
+  "fuelCurrencyHint": "ثلاثة أحرف مثل USD أو AED",
+  "fuelNote": "ملاحظة (اختيارية)",
+  "fuelSaveEntry": "حفظ السجل",
+  "fuelValidation": "أدخل أرقامًا صحيحة. يجب أن يكون الوقود والمسافة موجبين، أو كليهما صفرًا للصيانة مع تكاليف أخرى. لا يمكن أن تكون التكاليف سالبة. استخدم رمز عملة من ثلاثة أحرف وملاحظة لا تتجاوز 500 حرف.",
+  "fuelSaved": "تم حفظ السجل",
+  "fuelDeleted": "تم حذف السجل",
+  "fuelTotalCost": "إجمالي تكاليف المركبة",
+  "fuelConsumption": "استهلاك الوقود",
+  "fuelLoggedDistance": "المسافة المسجلة",
+  "fuelCostPerDistance": "التكلفة لكل مسافة مسجلة",
+  "fuelNoConsumption": "أضف الوقود والمسافة لحساب الاستهلاك",
+  "fuelLitersPer100Kilometers": "لتر/١٠٠ كم",
+  "fuelMilesPerUsGallon": "ميل/غالون أمريكي",
+  "fuelMileageLog": "سجل مسافات الرحلات",
+  "fuelAmountPerDistance": "{amount}/{unit}",
+  "@fuelAmountPerDistance": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      },
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "focusedDisplay": "عرض مركّز",
+  "exitFocusedDisplay": "الخروج من العرض المركّز",
+  "settingsSections": "أقسام الإعدادات",
+  "allSettings": "كل الإعدادات",
+  "allTrips": "كل الرحلات",
+  "activeTrips": "قيد التسجيل",
+  "finishedTrips": "الرحلات المكتملة",
+  "filterDates": "تصفية التواريخ",
+  "clearFilters": "مسح عوامل التصفية",
+  "previousPage": "الصفحة السابقة",
+  "nextPage": "الصفحة التالية",
+  "historyPage": "الصفحة {page}",
+  "historyNoMatches": "لا توجد رحلات تطابق عوامل التصفية.",
+  "loadRegionalMap": "تحميل خريطة إقليمية",
+  "removeRegionalMap": "إزالة الخريطة الإقليمية",
+  "regionalMapDisclosure": "خطوط GeoJSON محلية فقط (حتى 5 ميغابايت). اختر بيانات مسموحًا باستخدامها مع ذكر مصدرها. تبقى الطبقة في الذاكرة أثناء فتح شاشة الرحلة فقط ولا تُحفظ أو تُضمّن في النسخ الاحتياطية.",
+  "regionalMapFailure": "تعذر تحميل الخريطة الإقليمية. اختر FeatureCollection صالحة بصيغة GeoJSON بهندسة LineString أو MultiLineString.",
+  "regionalMapSource": "الخريطة الإقليمية: {source}",
+  "@historyPage": {
+    "placeholders": {
+      "page": {
+        "type": "String"
+      }
+    }
+  },
+  "@regionalMapSource": {
+    "placeholders": {
+      "source": {
+        "type": "String"
+      }
+    }
+  }
+}

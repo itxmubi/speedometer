@@ -1,0 +1,422 @@
+{
+  "@@locale": "en",
+  "appTitle": "Speedometer",
+  "appTagline": "ACCURATE. PRIVATE. FREE.",
+  "dashboardTitle": "Live dashboard",
+  "dashboardSubtitle": "A little more clarity for every journey.",
+  "settings": "Settings",
+  "backToDashboard": "Back to dashboard",
+  "digital": "Digital",
+  "analog": "Analog",
+  "hud": "HUD",
+  "displayMode": "Display mode",
+  "currentSpeed": "CURRENT SPEED",
+  "speedUnit": "Speed unit",
+  "unitKilometers": "km/h",
+  "unitMiles": "mph",
+  "unitMeters": "m/s",
+  "unitKnots": "kn",
+  "unitKilometersFull": "Kilometers per hour",
+  "unitMilesFull": "Miles per hour",
+  "unitMetersFull": "Meters per second",
+  "unitKnotsFull": "Knots",
+  "kilometers": "km",
+  "miles": "mi",
+  "nauticalMiles": "nmi",
+  "meters": "m",
+  "gpsStandby": "GPS on standby",
+  "gpsSearching": "Finding GPS signal",
+  "gpsLive": "GPS connected",
+  "gpsPaused": "GPS paused",
+  "gpsUnavailable": "GPS unavailable",
+  "accuracyValue": "±{value} m accuracy",
+  "@accuracyValue": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "speedSemantics": "Current speed {value} {unit}",
+  "@speedSemantics": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      },
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "startPrompt": "Ready when you are",
+  "startHint": "Start a trip to see your live GPS speed.",
+  "searchingHint": "A clear view of the sky helps GPS find you.",
+  "pausedHint": "Your trip is paused. Resume when you are ready.",
+  "trackingHint": "GPS is active. Use the trip controls or notification to stop.",
+  "thisTrip": "This trip",
+  "sessionOnly": "Local trip · saved when you finish",
+  "tripDistance": "DISTANCE",
+  "averageSpeed": "AVERAGE SPEED",
+  "topSpeed": "TOP SPEED",
+  "tripDuration": "DURATION",
+  "movingAverage": "Moving average",
+  "movingTime": "Moving time",
+  "altitude": "Altitude",
+  "heading": "Heading",
+  "unavailableValue": "—",
+  "durationValue": "{hours}:{minutes}:{seconds}",
+  "@durationValue": {
+    "placeholders": {
+      "hours": {
+        "type": "String"
+      },
+      "minutes": {
+        "type": "String"
+      },
+      "seconds": {
+        "type": "String"
+      }
+    }
+  },
+  "headingValue": "{value}°",
+  "@headingValue": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "measurementValue": "{value} {unit}",
+  "@measurementValue": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      },
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "startTrip": "Start trip",
+  "pauseTrip": "Pause trip",
+  "resumeTrip": "Resume trip",
+  "startingTrip": "Connecting…",
+  "resetTrip": "Reset trip",
+  "resetTitle": "Start fresh?",
+  "resetMessage": "This stops tracking and discards the current trip. Earlier saved trips, the total odometer and calendar distance totals are kept.",
+  "cancel": "Cancel",
+  "reset": "Reset",
+  "privacyFooter": "Offline by design. No account. No uploads.",
+  "safeDriving": "Set up before you move. Keep your attention on the road.",
+  "speedLimit": "Speed limit",
+  "limitValue": "LIMIT {value} {unit}",
+  "@limitValue": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      },
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "overLimit": "Over your speed limit",
+  "overLimitSemantics": "Warning: you are over your selected speed limit.",
+  "mirrorHud": "Mirror HUD",
+  "mirrorHudSubtitle": "Flip the readout for a windshield reflection.",
+  "hudHint": "For a clear, glanceable view. Position your phone safely before moving.",
+  "displaySettings": "Your display",
+  "displaySettingsDescription": "Make the dashboard feel right for you.",
+  "simpleView": "Simple view",
+  "simpleViewSubtitle": "Keep the focus on your current speed.",
+  "darkMode": "Dark appearance",
+  "darkModeSubtitle": "A softer display for the journey after dark.",
+  "warningSettings": "Speed warnings",
+  "warningSettingsDescription": "Choose a personal limit and the warnings you prefer.",
+  "enableWarning": "Enable speed warning",
+  "enableWarningSubtitle": "Show a warning above your selected limit and margin.",
+  "warningScope": "Sound, vibration and speech are optional. A warning is an aid; keep your attention on the road. Device sound settings and hardware can affect audible and haptic alerts.",
+  "decreaseLimit": "Decrease speed limit",
+  "increaseLimit": "Increase speed limit",
+  "privacySettings": "Privacy, by design",
+  "privacySettingsDescription": "Your location powers the speedometer on this device. No location or trip data is uploaded.",
+  "foregroundDisclosure": "GPS starts only when you tap Start trip. With background tracking enabled, a visible notification keeps tracking when you leave the app and offers a Stop button. Trips and optional precise routes stay on this device until you delete them or explicitly export a file. No account or automatic uploads.",
+  "precisionDisclaimer": "GPS readings can vary with signal conditions. This app is an aid, not a replacement for your vehicle’s speedometer.",
+  "permissionEyebrow": "LET’S GET YOU READY",
+  "permissionTitle": "Your journey.\nYour privacy.",
+  "permissionDescription": "A clear view of your speed starts with your phone’s GPS.",
+  "permissionLocationTitle": "Location, with a purpose",
+  "permissionLocationBody": "Precise location lets us read the speed reported by GPS and measure your trip distance.",
+  "permissionOfflineTitle": "Always on your device",
+  "permissionOfflineBody": "No account, no automatic uploads, and no internet needed. Trips and optional precise routes are saved on this device. You can turn route storage off, export a local backup or delete your data in Settings.",
+  "permissionControlTitle": "You are in control",
+  "permissionControlBody": "GPS starts when you tap Start trip. A visible notification can keep tracking when minimized and has a Stop button. Background tracking, route recording and warnings are controlled in Settings.",
+  "permissionContinue": "Continue to dashboard",
+  "permissionRequestHint": "We will ask for location permission when you start your first trip.",
+  "failurePermissionDenied": "Location permission is needed to show GPS speed. Tap Start trip to try again.",
+  "failurePermissionDeniedForever": "Location access is turned off for this app. Enable precise location in app settings to start a trip.",
+  "failureLocationDisabled": "Your device’s location service is off. Turn it on to find your GPS speed.",
+  "failureLocationUnavailable": "A reliable GPS reading is not available yet. Try again with a clear view of the sky.",
+  "failureUnsupported": "GPS tracking is not supported on this platform. The dashboard and display settings are available to preview.",
+  "failureStorage": "Your local data could not be read or saved. Please try again.",
+  "failureUnexpected": "Something interrupted the trip. Please try again.",
+  "openAppSettings": "Open app settings",
+  "openLocationSettings": "Turn on location",
+  "dismissError": "Dismiss message",
+  "preferencesLoadFailure": "Your saved preferences could not be loaded.",
+  "retry": "Try again",
+  "continueWithDefaults": "Continue with default settings",
+  "loadingPreferences": "Getting your dashboard ready…",
+  "startupTitle": "A clearer journey starts here.",
+  "keepAwake": "Keep screen awake",
+  "keepAwakeDescription": "Prevent screen sleep while tracking with the dashboard visible.",
+  "brightness": "Display brightness",
+  "systemBrightness": "Use system brightness",
+  "brightnessDescription": "Only changes this app. System brightness returns when you leave.",
+  "accentColor": "Instrument color",
+  "colorLime": "Lime",
+  "colorBlue": "Blue",
+  "colorCyan": "Cyan",
+  "colorAmber": "Amber",
+  "colorRose": "Rose",
+  "colorLavender": "Lavender",
+  "colorMint": "Mint",
+  "colorOrange": "Orange",
+  "colorWhite": "White",
+  "colorPink": "Pink",
+  "leftHanded": "Left-handed layout",
+  "leftHandedDescription": "Place the instrument on the left in wide layouts.",
+  "gaugeRange": "Full gauge range",
+  "nightHud": "Maximum-contrast HUD",
+  "nightHudDescription": "Use a pure-black HUD with a bright readout for night driving.",
+  "hudContent": "HUD information",
+  "hudTime": "Show time",
+  "hudCompass": "Show compass",
+  "hudTrip": "Show trip distance",
+  "soundAlert": "Sound warning",
+  "vibrationAlert": "Vibration warning",
+  "voiceAlert": "Spoken warning",
+  "alertVolume": "Warning volume",
+  "alertOffset": "Warning margin above limit",
+  "alertOffsetDescription": "The warning starts at your limit plus this margin.",
+  "calibration": "Distance calibration",
+  "calibrationDescription": "Adjust future distance measurements to match a reference odometer. GPS speed and previously recorded distances stay unchanged.",
+  "language": "Language",
+  "systemLanguage": "System language",
+  "languageEnglish": "English",
+  "languageSpanish": "Español",
+  "languageFrench": "Français",
+  "languageGerman": "Deutsch",
+  "languageArabic": "العربية",
+  "trackingSettings": "Tracking and recording",
+  "autoRecordTrips": "Save trips automatically",
+  "autoRecordTripsDescription": "Save each session you explicitly start. Finish a trip to add it to history. GPS never starts automatically.",
+  "recordRoute": "Save precise route",
+  "recordRouteDescription": "Keep start/end coordinates and accepted GPS points locally for the map, replay and GPX export. Turn off to save only statistics and speed samples. Existing routes remain until deleted.",
+  "backgroundTracking": "Continue when minimized",
+  "backgroundTrackingDescription": "After you tap Start trip, a visible location-service notification keeps GPS active outside the app. Use its Stop button to end recording. No background-location permission is requested.",
+  "economyGps": "Battery-friendly GPS",
+  "economyGpsDescription": "Request a fix about every 3 seconds instead of every second. Accuracy and responsiveness depend on your device.",
+  "overlaySettings": "Floating speedometer",
+  "overlayDescription": "Show speed over other apps while a trip is running. Drag to move and use the corner handle to resize.",
+  "enableOverlay": "Show floating speedometer",
+  "disableOverlay": "Hide floating speedometer",
+  "overlayPermissionTitle": "Allow a floating speedometer?",
+  "overlayPermissionBody": "Android needs permission to display the speed readout over navigation and other apps. The overlay only shows this app’s speed and warning state; it does not read the content of other apps. You can hide it here or stop your trip from the notification.",
+  "openOverlaySettings": "Allow display over other apps",
+  "continueAction": "Continue",
+  "backupSettings": "Local backup and data",
+  "backupDescription": "Backups include settings, optional body weight, trips, saved precise routes, fuel records and vehicle costs. Share them only with people and apps you trust. Nothing uploads automatically.",
+  "exportBackup": "Export local backup",
+  "restoreBackup": "Restore local backup",
+  "restoreBackupTitle": "Restore a backup?",
+  "restoreBackupMessage": "A valid backup replaces saved trips, odometer, fuel records, vehicle costs and settings on this device. Export a backup first to keep your current data. Tracking stops before restoring.",
+  "deleteAllData": "Delete all local data",
+  "deleteAllDataTitle": "Delete all local data?",
+  "deleteAllDataMessage": "This stops tracking and permanently deletes trips, precise routes, the odometer, fuel records, vehicle costs and saved settings on this device. Previously exported files are not deleted.",
+  "deleteAction": "Delete",
+  "resetPreferences": "Reset settings",
+  "resetPreferencesTitle": "Reset settings?",
+  "resetPreferencesMessage": "Restore default display, warning and recording settings. Saved trips and the odometer are kept.",
+  "odometer": "Total odometer",
+  "todayDistance": "Today",
+  "weekDistance": "This week",
+  "monthDistance": "This month",
+  "compass": "Device compass",
+  "compassUnavailable": "Compass unavailable on this device",
+  "courseOverGround": "GPS course over ground",
+  "tripHistory": "Trip history",
+  "finishTrip": "Finish and save trip",
+  "platformUnsupported": "This device does not support that feature.",
+  "invalidBackup": "The selected backup is invalid or incompatible.",
+  "storageMessage": "Your local data could not be read or saved. Please try again.",
+  "warningSpoken": "You are above your selected speed limit.",
+  "notificationTitle": "Speedometer tracking",
+  "notificationStop": "Stop",
+  "nativePaused": "Tracking paused",
+  "nativeTracking": "Tracking active",
+  "overlayPermissionMessage": "Allow Speedometer to appear over other apps, then return and enable the overlay.",
+  "backupRestored": "Your backup has been restored.",
+  "sessionRecordingOff": "Trip saving is off · odometer stays on this device",
+  "timeLabel": "Time",
+  "tripHistoryEmpty": "Your journeys will appear here",
+  "tripHistoryEmptyDescription": "Start a trip on the dashboard, then finish it to keep the statistics and optional route on this device.",
+  "tripDetail": "Trip details",
+  "tripNotFound": "This trip is no longer available.",
+  "tripInProgress": "In progress",
+  "tripFinished": "Finished",
+  "deleteTrip": "Delete trip",
+  "deleteTripTitle": "Delete this trip?",
+  "deleteTripMessage": "This permanently removes its statistics and saved route from this device. Your total odometer and calendar distance totals are kept. Exported files are not deleted.",
+  "tripRoute": "Recorded route",
+  "tripRouteDescription": "Offline map with coarse land outlines. Pinch to zoom and drag to explore. Streets are not included. Breaks mark pauses or periods without a saved route.",
+  "tripNoRoute": "No route was saved. Speed samples and statistics are still available.",
+  "tripStartPoint": "First saved point",
+  "tripEndPoint": "Last saved point",
+  "tripSpeedGraph": "Speed over time",
+  "tripSpeedGraphDescription": "Speed samples are shown against elapsed trip time. Gaps separate pauses and missing GPS intervals.",
+  "tripNoSamples": "No accepted GPS samples were recorded.",
+  "tripReplay": "Route replay",
+  "tripReplayPlay": "Play route replay",
+  "tripReplayPause": "Pause route replay",
+  "tripReplayProgress": "Replay position",
+  "tripReplayDescription": "Replay follows the saved samples. Dashed segments and warning markers identify samples above the speed limit selected during recording.",
+  "tripOverLimitLegend": "Warning markers: above selected limit",
+  "tripExportGpx": "Share GPX route",
+  "tripExportCsv": "Share CSV samples",
+  "tripShareSummary": "Share trip summary",
+  "tripExportDisclosure": "Exports can include precise saved coordinates. Only share them with apps and people you trust.",
+  "tripChartSemantics": "Recorded speed graph",
+  "tripRouteSemantics": "Saved route with start, end and replay position markers",
+  "tripSummaryText": "Trip on {date}\nDistance: {distance}\nDuration: {duration}\nAverage: {average}\nTop speed: {maximum}",
+  "@tripSummaryText": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "distance": {
+        "type": "String"
+      },
+      "duration": {
+        "type": "String"
+      },
+      "average": {
+        "type": "String"
+      },
+      "maximum": {
+        "type": "String"
+      }
+    }
+  },
+  "tripSamplePosition": "Sample {position} of {total}",
+  "@tripSamplePosition": {
+    "placeholders": {
+      "position": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "tripSampleTime": "Recorded at {time}",
+  "@tripSampleTime": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "tripBasemapAttribution": "Land outlines: Natural Earth (public domain). Coarse global basemap; streets are not included.",
+  "activitySettings": "Activity",
+  "activityDescription": "Each activity remembers its unit, gauge style and dial range.",
+  "activityMode": "Activity mode",
+  "activityCar": "Car",
+  "activityCycling": "Cycling",
+  "activityWalking": "Walking",
+  "activityRunning": "Running",
+  "activityBoating": "Boating",
+  "activityLocked": "Finish or reset the current trip before changing activity or weight.",
+  "bodyWeight": "Body weight",
+  "bodyWeightDescription": "Stored locally for a rough calorie estimate. Included in local backups.",
+  "bodyWeightEnabled": "Estimate calories",
+  "bodyWeightEnabledDescription": "Add your weight to estimate calories for cycling, walking and running.",
+  "kilograms": "kg",
+  "estimatedCalories": "Estimated calories",
+  "kilocalories": "kcal",
+  "calorieEstimateDescription": "Rough total energy estimate at moderate effort, based on moving time and weight. Actual energy use varies.",
+  "fuelCosts": "Fuel and vehicle costs",
+  "fuelLogEmpty": "No fuel or vehicle costs yet",
+  "fuelLogDescription": "Record fuel and the distance it covered. For maintenance only, leave fuel and distance at zero. Keep recorded trips as your mileage log. Currency totals stay separate; no exchange rates are applied.",
+  "fuelAddEntry": "Add entry",
+  "fuelEditEntry": "Edit entry",
+  "fuelDeleteEntry": "Delete entry",
+  "fuelDeleteConfirmation": "Delete this fuel and cost entry?",
+  "fuelEntryDate": "Date",
+  "fuelDistance": "Distance covered",
+  "fuelVolume": "Fuel used",
+  "fuelVolumeUnit": "Fuel unit",
+  "fuelDistanceUnit": "Distance unit",
+  "fuelLiters": "L",
+  "fuelUsGallons": "US gal",
+  "fuelCost": "Fuel cost",
+  "fuelOtherCost": "Other vehicle costs",
+  "fuelCurrency": "Currency code",
+  "fuelCurrencyHint": "Three letters, such as USD or AED",
+  "fuelNote": "Note (optional)",
+  "fuelSaveEntry": "Save entry",
+  "fuelValidation": "Enter valid numbers. Fuel and distance must both be positive, or both zero for a maintenance-only entry with other costs. Costs cannot be negative. Use a three-letter currency code and a note of up to 500 characters.",
+  "fuelSaved": "Entry saved",
+  "fuelDeleted": "Entry deleted",
+  "fuelTotalCost": "Total vehicle costs",
+  "fuelConsumption": "Fuel consumption",
+  "fuelLoggedDistance": "Logged distance",
+  "fuelCostPerDistance": "Cost per logged distance",
+  "fuelNoConsumption": "Add fuel with distance to calculate consumption",
+  "fuelLitersPer100Kilometers": "L/100 km",
+  "fuelMilesPerUsGallon": "mi/US gal",
+  "fuelMileageLog": "Trip mileage log",
+  "fuelAmountPerDistance": "{amount}/{unit}",
+  "@fuelAmountPerDistance": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      },
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "focusedDisplay": "Focused display",
+  "exitFocusedDisplay": "Exit focused display",
+  "settingsSections": "Settings sections",
+  "allSettings": "All settings",
+  "allTrips": "All trips",
+  "activeTrips": "In progress",
+  "finishedTrips": "Finished trips",
+  "filterDates": "Filter dates",
+  "clearFilters": "Clear filters",
+  "previousPage": "Previous page",
+  "nextPage": "Next page",
+  "historyPage": "Page {page}",
+  "historyNoMatches": "No trips match these filters.",
+  "loadRegionalMap": "Load regional map",
+  "removeRegionalMap": "Remove regional map",
+  "regionalMapDisclosure": "Local GeoJSON lines only (up to 5 MB). Choose data you have permission to use and include source attribution. The layer stays in memory while this trip screen is open; it is not saved or included in backups.",
+  "regionalMapFailure": "Regional map could not be loaded. Choose a valid GeoJSON FeatureCollection with LineString or MultiLineString geometry.",
+  "regionalMapSource": "Regional map: {source}",
+  "@historyPage": {
+    "placeholders": {
+      "page": {
+        "type": "String"
+      }
+    }
+  },
+  "@regionalMapSource": {
+    "placeholders": {
+      "source": {
+        "type": "String"
+      }
+    }
+  }
+}

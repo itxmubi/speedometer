@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Tachometer</string>
+    <string name="tracking_channel">Aktuelle Geschwindigkeit</string>
+    <string name="tracking_channel_description">Geschwindigkeit und Stopp während der Fahrt</string>
+    <string name="tracking_waiting">Warten auf GPS</string>
+    <string name="tracking_idle">Aufzeichnung angehalten</string>
+    <string name="tracking_stop">Stopp</string>
+    <string name="widget_name">Live-Tachometer</string>
+    <string name="widget_description">Geschwindigkeit während der Aufzeichnung. Zum Öffnen antippen.</string>
+    <string name="overlay_close">Schwebenden Tachometer schließen</string>
+    <string name="overlay_resize">Zum Ändern der Größe ziehen</string>
+</resources>
