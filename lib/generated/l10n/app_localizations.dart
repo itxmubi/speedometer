@@ -1916,6 +1916,30 @@ abstract class AppLocalizations {
   /// **'Regional map could not be loaded. Choose a valid GeoJSON FeatureCollection with LineString or MultiLineString geometry.'**
   String get regionalMapFailure;
 
+  /// No description provided for @privacyPolicy.
+  ///
+  /// In en, this message translates to:
+  /// **'Privacy Policy'**
+  String get privacyPolicy;
+
+  /// No description provided for @termsAndConditions.
+  ///
+  /// In en, this message translates to:
+  /// **'Terms and Conditions'**
+  String get termsAndConditions;
+
+  /// No description provided for @readOnlyWebPage.
+  ///
+  /// In en, this message translates to:
+  /// **'Read-only page. Links and forms are disabled.'**
+  String get readOnlyWebPage;
+
+  /// No description provided for @webPageLoadError.
+  ///
+  /// In en, this message translates to:
+  /// **'The page could not be loaded. Check your connection and try again.'**
+  String get webPageLoadError;
+
   /// No description provided for @regionalMapSource.
   ///
   /// In en, this message translates to:

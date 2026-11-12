@@ -404,6 +404,10 @@
   "removeRegionalMap": "إزالة الخريطة الإقليمية",
   "regionalMapDisclosure": "خطوط GeoJSON محلية فقط (حتى 5 ميغابايت). اختر بيانات مسموحًا باستخدامها مع ذكر مصدرها. تبقى الطبقة في الذاكرة أثناء فتح شاشة الرحلة فقط ولا تُحفظ أو تُضمّن في النسخ الاحتياطية.",
   "regionalMapFailure": "تعذر تحميل الخريطة الإقليمية. اختر FeatureCollection صالحة بصيغة GeoJSON بهندسة LineString أو MultiLineString.",
+  "privacyPolicy": "سياسة الخصوصية",
+  "termsAndConditions": "الشروط والأحكام",
+  "readOnlyWebPage": "صفحة للقراءة فقط. الروابط والنماذج معطّلة.",
+  "webPageLoadError": "تعذر تحميل الصفحة. تحقق من اتصالك وحاول مرة أخرى.",
   "regionalMapSource": "الخريطة الإقليمية: {source}",
   "@historyPage": {
     "placeholders": {

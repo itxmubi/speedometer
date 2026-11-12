@@ -1012,6 +1012,20 @@ class AppLocalizationsFr extends AppLocalizations {
       'Impossible de charger la carte régionale. Choisissez une FeatureCollection GeoJSON valide avec une géométrie LineString ou MultiLineString.';
 
   @override
+  String get privacyPolicy => 'Politique de confidentialité';
+
+  @override
+  String get termsAndConditions => 'Conditions générales';
+
+  @override
+  String get readOnlyWebPage =>
+      'Page en lecture seule. Les liens et les formulaires sont désactivés.';
+
+  @override
+  String get webPageLoadError =>
+      'Impossible de charger la page. Vérifiez votre connexion et réessayez.';
+
+  @override
   String regionalMapSource(String source) {
     return 'Carte régionale : $source';
   }

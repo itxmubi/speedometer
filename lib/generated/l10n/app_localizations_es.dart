@@ -1008,6 +1008,20 @@ class AppLocalizationsEs extends AppLocalizations {
       'No se pudo cargar el mapa regional. Elige una FeatureCollection GeoJSON válida con geometría LineString o MultiLineString.';
 
   @override
+  String get privacyPolicy => 'Política de privacidad';
+
+  @override
+  String get termsAndConditions => 'Términos y condiciones';
+
+  @override
+  String get readOnlyWebPage =>
+      'Página de solo lectura. Los enlaces y formularios están desactivados.';
+
+  @override
+  String get webPageLoadError =>
+      'No se pudo cargar la página. Comprueba tu conexión e inténtalo de nuevo.';
+
+  @override
   String regionalMapSource(String source) {
     return 'Mapa regional: $source';
   }

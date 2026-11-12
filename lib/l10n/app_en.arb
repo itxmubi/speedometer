@@ -404,6 +404,10 @@
   "removeRegionalMap": "Remove regional map",
   "regionalMapDisclosure": "Local GeoJSON lines only (up to 5 MB). Choose data you have permission to use and include source attribution. The layer stays in memory while this trip screen is open; it is not saved or included in backups.",
   "regionalMapFailure": "Regional map could not be loaded. Choose a valid GeoJSON FeatureCollection with LineString or MultiLineString geometry.",
+  "privacyPolicy": "Privacy Policy",
+  "termsAndConditions": "Terms and Conditions",
+  "readOnlyWebPage": "Read-only page. Links and forms are disabled.",
+  "webPageLoadError": "The page could not be loaded. Check your connection and try again.",
   "regionalMapSource": "Regional map: {source}",
   "@historyPage": {
     "placeholders": {

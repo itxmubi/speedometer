@@ -2,9 +2,11 @@ import '../../features/speedometer/presentation/screens/focused_display_screen.d
 import '../../features/trips/presentation/screens/history_screen.dart';
 import '../../features/trips/presentation/screens/trip_detail_screen.dart';
 import '../../features/fuel/presentation/screens/fuel_screen.dart';
+import '../../features/speedometer/presentation/screens/legal_document_screen.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
+import 'package:speedometer/generated/l10n/app_localizations.dart';
 
 import '../../features/speedometer/presentation/providers/speedometer_controller.dart';
 import '../../features/speedometer/presentation/screens/permission_screen.dart';
@@ -77,6 +79,18 @@ final appRouterProvider = Provider<GoRouter>((ref) {
       GoRoute(
         path: AppRoutes.settings,
         builder: (context, state) => const SettingsScreen(),
+      ),
+      GoRoute(
+        path: AppRoutes.privacyPolicy,
+        builder: (context, state) => LegalDocumentScreen(
+          title: AppLocalizations.of(context).privacyPolicy,
+        ),
+      ),
+      GoRoute(
+        path: AppRoutes.termsAndConditions,
+        builder: (context, state) => LegalDocumentScreen(
+          title: AppLocalizations.of(context).termsAndConditions,
+        ),
       ),
       GoRoute(
         path: AppRoutes.loading,

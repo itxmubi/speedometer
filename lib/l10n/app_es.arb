@@ -404,6 +404,10 @@
   "removeRegionalMap": "Eliminar mapa regional",
   "regionalMapDisclosure": "Solo líneas GeoJSON locales (hasta 5 MB). Usa datos autorizados con su fuente. La capa permanece en memoria mientras esta pantalla esté abierta; no se guarda ni se incluye en las copias de seguridad.",
   "regionalMapFailure": "No se pudo cargar el mapa regional. Elige una FeatureCollection GeoJSON válida con geometría LineString o MultiLineString.",
+  "privacyPolicy": "Política de privacidad",
+  "termsAndConditions": "Términos y condiciones",
+  "readOnlyWebPage": "Página de solo lectura. Los enlaces y formularios están desactivados.",
+  "webPageLoadError": "No se pudo cargar la página. Comprueba tu conexión e inténtalo de nuevo.",
   "regionalMapSource": "Mapa regional: {source}",
   "@historyPage": {
     "placeholders": {

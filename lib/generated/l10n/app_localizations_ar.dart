@@ -997,6 +997,19 @@ class AppLocalizationsAr extends AppLocalizations {
       'تعذر تحميل الخريطة الإقليمية. اختر FeatureCollection صالحة بصيغة GeoJSON بهندسة LineString أو MultiLineString.';
 
   @override
+  String get privacyPolicy => 'سياسة الخصوصية';
+
+  @override
+  String get termsAndConditions => 'الشروط والأحكام';
+
+  @override
+  String get readOnlyWebPage => 'صفحة للقراءة فقط. الروابط والنماذج معطّلة.';
+
+  @override
+  String get webPageLoadError =>
+      'تعذر تحميل الصفحة. تحقق من اتصالك وحاول مرة أخرى.';
+
+  @override
   String regionalMapSource(String source) {
     return 'الخريطة الإقليمية: $source';
   }

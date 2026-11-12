@@ -140,6 +140,12 @@ Fuel records do not modify GPS trip distance or the lifetime odometer.
 
 ### Privacy and local backups
 
+The Privacy Policy and Terms and Conditions entries in Settings currently open
+`https://www.google.com/` in a read-only in-app WebView as placeholder destinations.
+These are not the app's legal documents; replace them with hosted legal-document
+URLs before release. Opening these pages needs an internet connection; speed
+tracking and local data remain available offline.
+
 **Save precise route** is enabled by default. Turn it off in Settings to retain
 statistics and speed samples without saving new route coordinates. Existing
 routes remain until deleted. The map leaves gaps across pauses, GPS loss and

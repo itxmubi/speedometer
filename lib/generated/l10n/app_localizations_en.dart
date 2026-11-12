@@ -1005,6 +1005,19 @@ class AppLocalizationsEn extends AppLocalizations {
       'Regional map could not be loaded. Choose a valid GeoJSON FeatureCollection with LineString or MultiLineString geometry.';
 
   @override
+  String get privacyPolicy => 'Privacy Policy';
+
+  @override
+  String get termsAndConditions => 'Terms and Conditions';
+
+  @override
+  String get readOnlyWebPage => 'Read-only page. Links and forms are disabled.';
+
+  @override
+  String get webPageLoadError =>
+      'The page could not be loaded. Check your connection and try again.';
+
+  @override
   String regionalMapSource(String source) {
     return 'Regional map: $source';
   }

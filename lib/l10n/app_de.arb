@@ -404,6 +404,10 @@
   "removeRegionalMap": "Regionale Karte entfernen",
   "regionalMapDisclosure": "Nur lokale GeoJSON-Linien (bis 5 MB). Verwenden Sie zulässige Daten mit Quellenangabe. Die Ebene bleibt nur bei geöffnetem Fahrtbildschirm im Speicher und wird nicht gespeichert oder gesichert.",
   "regionalMapFailure": "Die regionale Karte konnte nicht geladen werden. Wählen Sie eine gültige GeoJSON-FeatureCollection mit LineString- oder MultiLineString-Geometrie.",
+  "privacyPolicy": "Datenschutzerklärung",
+  "termsAndConditions": "Allgemeine Geschäftsbedingungen",
+  "readOnlyWebPage": "Schreibgeschützte Seite. Links und Formulare sind deaktiviert.",
+  "webPageLoadError": "Die Seite konnte nicht geladen werden. Prüfen Sie Ihre Verbindung und versuchen Sie es erneut.",
   "regionalMapSource": "Regionale Karte: {source}",
   "@historyPage": {
     "placeholders": {

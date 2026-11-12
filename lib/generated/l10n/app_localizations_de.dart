@@ -1014,6 +1014,20 @@ class AppLocalizationsDe extends AppLocalizations {
       'Die regionale Karte konnte nicht geladen werden. Wählen Sie eine gültige GeoJSON-FeatureCollection mit LineString- oder MultiLineString-Geometrie.';
 
   @override
+  String get privacyPolicy => 'Datenschutzerklärung';
+
+  @override
+  String get termsAndConditions => 'Allgemeine Geschäftsbedingungen';
+
+  @override
+  String get readOnlyWebPage =>
+      'Schreibgeschützte Seite. Links und Formulare sind deaktiviert.';
+
+  @override
+  String get webPageLoadError =>
+      'Die Seite konnte nicht geladen werden. Prüfen Sie Ihre Verbindung und versuchen Sie es erneut.';
+
+  @override
   String regionalMapSource(String source) {
     return 'Regionale Karte: $source';
   }
