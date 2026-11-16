@@ -44,19 +44,3 @@ app.*.map.json
 /android/app/profile
 /android/app/release
 
-# Local project instructions, planning, memory and documentation
-/rules.md
-/project_plan.md
-/PROJECT_MEMORY.md
-/AGENTS.md
-/docs/*
-
-# Keep only screenshots referenced by the README eligible for tracking
-!/docs/screenshots/
-/docs/screenshots/*
-!/docs/screenshots/dashboard-digital.png
-!/docs/screenshots/dashboard-hud.png
-!/docs/screenshots/trip-statistics.png
-!/docs/screenshots/trip-history.png
-!/docs/screenshots/trip-route.png
-!/docs/screenshots/settings.png

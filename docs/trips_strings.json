@@ -1,0 +1,71 @@
+{
+  "tripHistoryEmpty": "Your journeys will appear here",
+  "tripHistoryEmptyDescription": "Start a trip on the dashboard, then finish it to keep the statistics and optional route on this device.",
+  "tripDetail": "Trip details",
+  "tripNotFound": "This trip is no longer available.",
+  "tripInProgress": "In progress",
+  "tripFinished": "Finished",
+  "deleteTrip": "Delete trip",
+  "deleteTripTitle": "Delete this trip?",
+  "deleteTripMessage": "This permanently removes its statistics and saved route from this device. Your total odometer and calendar distance totals are kept. Exported files are not deleted.",
+  "tripRoute": "Recorded route",
+  "tripRouteDescription": "Offline map with coarse land outlines. Pinch to zoom and drag to explore. Streets are not included. Breaks mark pauses or periods without a saved route.",
+  "tripNoRoute": "No route was saved. Speed samples and statistics are still available.",
+  "tripStartPoint": "First saved point",
+  "tripEndPoint": "Last saved point",
+  "tripSpeedGraph": "Speed over time",
+  "tripSpeedGraphDescription": "Speed samples are shown against elapsed trip time. Gaps separate pauses and missing GPS intervals.",
+  "tripNoSamples": "No accepted GPS samples were recorded.",
+  "tripReplay": "Route replay",
+  "tripReplayPlay": "Play route replay",
+  "tripReplayPause": "Pause route replay",
+  "tripReplayProgress": "Replay position",
+  "tripReplayDescription": "Replay follows the saved samples. Dashed segments and warning markers identify samples above the speed limit selected during recording.",
+  "tripOverLimitLegend": "Warning markers: above selected limit",
+  "tripExportGpx": "Share GPX route",
+  "tripExportCsv": "Share CSV samples",
+  "tripShareSummary": "Share trip summary",
+  "tripExportDisclosure": "Exports can include precise saved coordinates. Only share them with apps and people you trust.",
+  "tripChartSemantics": "Recorded speed graph",
+  "tripRouteSemantics": "Saved route with start, end and replay position markers",
+  "tripSummaryText": "Trip on {date}\nDistance: {distance}\nDuration: {duration}\nAverage: {average}\nTop speed: {maximum}",
+  "@tripSummaryText": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "distance": {
+        "type": "String"
+      },
+      "duration": {
+        "type": "String"
+      },
+      "average": {
+        "type": "String"
+      },
+      "maximum": {
+        "type": "String"
+      }
+    }
+  },
+  "tripSamplePosition": "Sample {position} of {total}",
+  "@tripSamplePosition": {
+    "placeholders": {
+      "position": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "tripSampleTime": "Recorded at {time}",
+  "@tripSampleTime": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "tripBasemapAttribution": "Land outlines: Natural Earth (public domain). Coarse global basemap; streets are not included."
+}
