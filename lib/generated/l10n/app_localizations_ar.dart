@@ -199,6 +199,18 @@ class AppLocalizationsAr extends AppLocalizations {
   String get reset => 'إعادة ضبط';
 
   @override
+  String get exitAppTitle => 'إغلاق التطبيق؟';
+
+  @override
+  String get exitAppMessage => 'هل تريد إغلاق التطبيق؟';
+
+  @override
+  String get yes => 'نعم';
+
+  @override
+  String get no => 'لا';
+
+  @override
   String get privacyFooter => 'يعمل دون إنترنت. دون حساب. دون رفع بيانات.';
 
   @override

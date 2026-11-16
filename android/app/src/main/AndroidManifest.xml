@@ -48,6 +48,12 @@
             </intent-filter>
             <meta-data android:name="android.appwidget.provider" android:resource="@xml/speed_widget_info" />
         </receiver>
+        <!-- Google Mobile Ads official DEMO/test App ID (ca-app-pub-3940256099942544~3347511713).
+             This is a public Google test identifier documented at
+             https://developers.google.com/admob/android/test-ads, never a production ad unit. -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" />
         <!-- Don't delete the meta-data below.
              This is used by the Flutter tool to generate GeneratedPluginRegistrant.java -->
         <meta-data

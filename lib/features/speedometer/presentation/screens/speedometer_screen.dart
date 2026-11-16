@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import 'package:speedometer/generated/l10n/app_localizations.dart';
 
 import '../../../../app/router/app_routes.dart';
+import '../../../../core/ads/banner_ad_widget.dart';
 import '../../../../core/theme/app_metrics.dart';
 import '../../../../core/theme/app_radii.dart';
 import '../../../../core/theme/app_spacing.dart';
@@ -29,91 +31,123 @@ class SpeedometerScreen extends ConsumerWidget {
     );
     final l10n = AppLocalizations.of(context);
     final theme = Theme.of(context);
-    return Scaffold(
-      body: SafeArea(
-        child: Center(
-          child: ConstrainedBox(
-            constraints: const BoxConstraints(
-              maxWidth: AppMetrics.contentMaxWidth,
-            ),
-            child: ListView(
-              padding: const EdgeInsets.all(AppSpacing.lg),
-              children: [
-                const _DashboardHeader(),
-                const SizedBox(height: AppSpacing.xxl),
-                Text(
-                  l10n.dashboardTitle,
-                  style: theme.textTheme.headlineMedium,
-                ),
-                const SizedBox(height: AppSpacing.xxs),
-                Text(
-                  l10n.dashboardSubtitle,
-                  style: theme.textTheme.bodyMedium?.copyWith(
-                    color: theme.colorScheme.onSurfaceVariant,
+    return PopScope(
+      canPop: false,
+      onPopInvokedWithResult: (didPop, result) async {
+        if (didPop) return;
+        final shouldExit = await _confirmExit(context, l10n);
+        if (shouldExit) {
+          await SystemNavigator.pop();
+        }
+      },
+      child: Scaffold(
+        body: SafeArea(
+          child: Center(
+            child: ConstrainedBox(
+              constraints: const BoxConstraints(
+                maxWidth: AppMetrics.contentMaxWidth,
+              ),
+              child: ListView(
+                padding: const EdgeInsets.all(AppSpacing.lg),
+                children: [
+                  const _DashboardHeader(),
+                  const SizedBox(height: AppSpacing.xxl),
+                  Text(
+                    l10n.dashboardTitle,
+                    style: theme.textTheme.headlineMedium,
                   ),
-                ),
-                const SizedBox(height: AppSpacing.lg),
-                Align(
-                  alignment: AlignmentDirectional.centerEnd,
-                  child: TextButton.icon(
-                    onPressed: () => context.push(AppRoutes.focusedDisplay),
-                    icon: const Icon(Icons.fullscreen_rounded),
-                    label: Text(l10n.focusedDisplay),
+                  const SizedBox(height: AppSpacing.xxs),
+                  Text(
+                    l10n.dashboardSubtitle,
+                    style: theme.textTheme.bodyMedium?.copyWith(
+                      color: theme.colorScheme.onSurfaceVariant,
+                    ),
                   ),
-                ),
-                LayoutBuilder(
-                  builder: (context, constraints) {
-                    final wide =
-                        constraints.maxWidth >= AppMetrics.wideBreakpoint;
-                    const instrument = Column(
-                      crossAxisAlignment: CrossAxisAlignment.stretch,
-                      children: [
-                        GaugePanel(),
-                        SizedBox(height: AppSpacing.lg),
-                        TripControls(),
-                      ],
-                    );
-                    if (wide && !simpleView) {
-                      final sections = <Widget>[
-                        const Expanded(child: instrument),
-                        const SizedBox(width: AppSpacing.lg),
-                        const Expanded(child: TripStatsPanel()),
-                      ];
-                      return Row(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        textDirection: TextDirection.ltr,
-                        children: leftHanded
-                            ? sections
-                            : sections.reversed.toList(),
+                  const SizedBox(height: AppSpacing.lg),
+                  Align(
+                    alignment: AlignmentDirectional.centerEnd,
+                    child: TextButton.icon(
+                      onPressed: () => context.push(AppRoutes.focusedDisplay),
+                      icon: const Icon(Icons.fullscreen_rounded),
+                      label: Text(l10n.focusedDisplay),
+                    ),
+                  ),
+                  LayoutBuilder(
+                    builder: (context, constraints) {
+                      final wide =
+                          constraints.maxWidth >= AppMetrics.wideBreakpoint;
+                      const instrument = Column(
+                        crossAxisAlignment: CrossAxisAlignment.stretch,
+                        children: [
+                          GaugePanel(),
+                          SizedBox(height: AppSpacing.lg),
+                          TripControls(),
+                        ],
                       );
-                    }
-                    return Center(
-                      child: ConstrainedBox(
-                        constraints: const BoxConstraints(
-                          maxWidth: AppMetrics.compactMaxWidth,
-                        ),
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.stretch,
-                          children: [
-                            instrument,
-                            if (!simpleView) ...[
-                              const SizedBox(height: AppSpacing.xl),
-                              const TripStatsPanel(),
+                      if (wide && !simpleView) {
+                        final sections = <Widget>[
+                          const Expanded(child: instrument),
+                          const SizedBox(width: AppSpacing.lg),
+                          const Expanded(child: TripStatsPanel()),
+                        ];
+                        return Row(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          textDirection: TextDirection.ltr,
+                          children: leftHanded
+                              ? sections
+                              : sections.reversed.toList(),
+                        );
+                      }
+                      return Center(
+                        child: ConstrainedBox(
+                          constraints: const BoxConstraints(
+                            maxWidth: AppMetrics.compactMaxWidth,
+                          ),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.stretch,
+                            children: [
+                              instrument,
+                              if (!simpleView) ...[
+                                const SizedBox(height: AppSpacing.xl),
+                                const TripStatsPanel(),
+                              ],
                             ],
-                          ],
+                          ),
                         ),
-                      ),
-                    );
-                  },
-                ),
-                const SizedBox(height: AppSpacing.xl),
-                const _PrivacyFooter(),
-              ],
+                      );
+                    },
+                  ),
+                  const SizedBox(height: AppSpacing.xl),
+                  const _PrivacyFooter(),
+                ],
+              ),
             ),
           ),
         ),
+        bottomNavigationBar: const BannerAdWidget(),
       ),
     );
+  }
+
+  Future<bool> _confirmExit(BuildContext context, AppLocalizations l10n) async {
+    final confirmed = await showDialog<bool>(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: Text(l10n.exitAppTitle),
+        content: Text(l10n.exitAppMessage),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.of(context).pop(false),
+            child: Text(l10n.no),
+          ),
+          FilledButton(
+            onPressed: () => Navigator.of(context).pop(true),
+            child: Text(l10n.yes),
+          ),
+        ],
+      ),
+    );
+    return confirmed ?? false;
   }
 }
 

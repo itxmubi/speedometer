@@ -201,6 +201,18 @@ class AppLocalizationsDe extends AppLocalizations {
   String get reset => 'Zurücksetzen';
 
   @override
+  String get exitAppTitle => 'App beenden?';
+
+  @override
+  String get exitAppMessage => 'Möchten Sie die App schließen?';
+
+  @override
+  String get yes => 'Ja';
+
+  @override
+  String get no => 'Nein';
+
+  @override
   String get privacyFooter => 'Offline. Ohne Konto. Keine Uploads.';
 
   @override

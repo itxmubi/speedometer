@@ -198,6 +198,18 @@ class AppLocalizationsEn extends AppLocalizations {
   String get reset => 'Reset';
 
   @override
+  String get exitAppTitle => 'Exit app?';
+
+  @override
+  String get exitAppMessage => 'Do you want to close the app?';
+
+  @override
+  String get yes => 'Yes';
+
+  @override
+  String get no => 'No';
+
+  @override
   String get privacyFooter => 'Offline by design. No account. No uploads.';
 
   @override

@@ -199,6 +199,18 @@ class AppLocalizationsEs extends AppLocalizations {
   String get reset => 'Reiniciar';
 
   @override
+  String get exitAppTitle => '¿Salir de la aplicación?';
+
+  @override
+  String get exitAppMessage => '¿Quieres cerrar la aplicación?';
+
+  @override
+  String get yes => 'Sí';
+
+  @override
+  String get no => 'No';
+
+  @override
   String get privacyFooter => 'Sin conexión. Sin cuenta. Sin subidas.';
 
   @override

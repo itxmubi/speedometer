@@ -199,6 +199,18 @@ class AppLocalizationsFr extends AppLocalizations {
   String get reset => 'Réinitialiser';
 
   @override
+  String get exitAppTitle => 'Quitter l’application ?';
+
+  @override
+  String get exitAppMessage => 'Voulez-vous fermer l’application ?';
+
+  @override
+  String get yes => 'Oui';
+
+  @override
+  String get no => 'Non';
+
+  @override
   String get privacyFooter => 'Hors ligne. Sans compte. Sans envoi de données.';
 
   @override
